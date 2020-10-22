@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Stylish&display=swap');
+
+
+nav {
+    background-color: #f25b43;
+}
+
+#website-title {
+    color: #fff3db;
+    font-family: 'Stylish', 'Lato', sans-serif;
+    font-size: 60px;
+}
+
+.nav-link {
+    color: #fff3db;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    color: #a61f0b;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline-color: #fff3db;
+    box-shadow: none;
+}
