@@ -48,8 +48,23 @@ nav {
 }
 
 #inside-background-colour {
-    width: 50%;
-    background-color: white;
+    width: 60%;
+    background-color: #fff3db;
     margin: auto;
     border-radius: 10%;
+}
+
+/* About Section */
+
+.about-h2-styling {
+    padding: 6px 0;
+    font-family: 'Stylish', 'Lato', sans-serif;
+    color: #a61f0b;
+    font-size: 45px;
+}
+
+.about-text-styling {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 25px;
 }
