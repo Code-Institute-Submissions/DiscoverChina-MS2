@@ -42,12 +42,12 @@ nav {
 
 /* Background Image */
 
-#background-image {
+#outside-background-image {
     background-image: url(images/background-image.jpg);
     background-repeat: cover;
 }
 
-#main-background {
+#inside-background-colour {
     width: 50%;
     background-color: white;
     margin: auto;
