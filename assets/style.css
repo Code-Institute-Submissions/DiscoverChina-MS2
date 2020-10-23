@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Stylish&display=swap');
 
 
+
+
+/* Navbar */
 nav {
     background-color: #f25b43;
 }
@@ -26,4 +29,13 @@ nav {
 .navbar-toggler-icon:focus {
     outline-color: #fff3db;
     box-shadow: none;
+}
+
+/* Hero Image / Slideshow */
+
+#hero-image {
+    height: 90vh;
+    width: 100vw;
+    max-width: 100%;
+    object-fit: cover;
 }
