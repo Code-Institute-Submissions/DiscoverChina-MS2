@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Stylish&display=swap');
 
 
-
+#temp-gap {
+    height: 200px;
+}
 
 /* Navbar */
 nav {
@@ -68,3 +70,6 @@ nav {
     color: black;
     font-size: 25px;
 }
+
+/* Contact Form */
+
