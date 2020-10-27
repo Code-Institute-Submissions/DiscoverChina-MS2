@@ -20,3 +20,9 @@
 #### Typography
 
 ### Wireframes
+
+## Features 
+
+### Existing Features
+
+* Designed with HTML5, CSS3, Bootstrap and Javascript.
