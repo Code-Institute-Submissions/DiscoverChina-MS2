@@ -14,6 +14,7 @@ function initMap(){
       addMarker({coords:event.latLng});
     });
 
+    
     // Array of markers
     var markers = [
       {
@@ -27,6 +28,9 @@ function initMap(){
       },
       {
         coords:{lat:31.2335,lng:121.5056}
+      },
+      {
+        coords:{lat:35.6762,lng:139.6503}
       }
     ];
 
@@ -50,11 +54,6 @@ function initMap(){
         marker.setIcon(props.iconImage);
       }
 
-      new MarkerClusterer(map, markers, {
-        imagePath:
-          "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-      });
-
       // Check content
       if(props.content){
         var infoWindow = new google.maps.InfoWindow({
@@ -67,5 +66,3 @@ function initMap(){
       }
     }
   }
-
-  
