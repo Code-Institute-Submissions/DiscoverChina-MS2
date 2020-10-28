@@ -14,11 +14,6 @@ function initMap(){
       addMarker({coords:event.latLng});
     });
 
-    new MarkerClusterer(map, markers, {
-      imagePath:
-        "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-    });
-
     // Array of markers
     var markers = [
       {
@@ -54,6 +49,11 @@ function initMap(){
         // Set icon image
         marker.setIcon(props.iconImage);
       }
+
+      new MarkerClusterer(map, markers, {
+        imagePath:
+          "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+      });
 
       // Check content
       if(props.content){
