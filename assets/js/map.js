@@ -31,6 +31,9 @@ function initMap(){
       },
       {
         coords:{lat:35.6762,lng:139.6503}
+      },
+      {
+        coords:{lat:31.6762,lng:121.6503}
       }
     ];
 
@@ -47,7 +50,10 @@ function initMap(){
         map:map,
         //icon:props.iconImage
       });
-
+      new MarkerClusterer(map, markers, {
+        imagePath:
+          "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+      });
       // Check for customicon
       if(props.iconImage){
         // Set icon image
