@@ -15,19 +15,18 @@ function initMap(){
   var markers = [
     {
       coords:{lat:31.2403,lng:121.4906},
-      iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-      content:'<h1>Test 1</h1>'
+      iconImage:'assets/images/marker.png',
+      content:'<h2>Shanghai</h2>'
     },
     {
-      coords:{lat:31.2272,lng:121.4921},
-      content:'<h1>Test 2</h1>'
+      coords:{lat:39.9042,lng:116.4074},
+      iconImage:'assets/images/marker.png',
+      content:'<h2>Beijing</h2>'
     },
     {
-      coords:{lat:31.2335,lng:121.5056},
-      content: '<p>Hello World</p>'
-    },
-    {
-      coords:{lat:31.6762,lng:121.6503}
+      coords:{lat:22.3193,lng:114.1694},
+      iconImage:'assets/images/marker.png',
+      content: '<h2>Hong Kong</h2>'
     }
   ];
 
