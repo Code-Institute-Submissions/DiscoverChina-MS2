@@ -46,7 +46,7 @@ function initMap(){
 
     // Check for customicon
     if(props.iconImage){
-      // Set icon image
+      // Set icon image 
       marker.setIcon(props.iconImage);
     }
 
@@ -62,3 +62,11 @@ function initMap(){
     }
   }
 }
+
+  var recMapOne = new google.maps.Map(document.getElementById("map-rec-one"), {
+    zoom: 7.5,
+    center: {
+      lat: 56.0406,
+      lng: 13.678,
+    },
+  });
