@@ -71,7 +71,21 @@ nav {
     font-size: 25px;
 }
 
-/* MAP */
+/* Recommended Locations Section */
+
+.rec-h3-styling {
+    color: #a61f0b;
+    font-family: 'Stylish', 'Lato', sans-serif;
+    font-size: 45px;
+}
+
+.rec-desc-styling {
+    color: #a61f0b;
+    font-family: 'Styling', 'Lato', sans-serif;
+    font-family: 25px;
+}
+
+/* Map Styling */
 
 #map {height: 360px; width: 100%;}
 
