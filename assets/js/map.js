@@ -64,8 +64,8 @@ function initMap(){
     var recMapOne = new google.maps.Map(document.getElementById("map-rec-one"), {
     zoom: 7.5,
     center: {
-      lat: 56.0406,
-      lng: 13.678,
+      lat: 39.9042,
+      lng: 116.4074,
     },
   });
 
