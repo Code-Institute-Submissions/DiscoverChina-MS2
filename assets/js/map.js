@@ -61,6 +61,7 @@ function initMap(){
       });
     }
   }
+// Recommended Map One
     var recMapOne = new google.maps.Map(document.getElementById("map-rec-one"), {
     zoom: 7.5,
     center: {
@@ -68,5 +69,20 @@ function initMap(){
       lng: 116.4074,
     },
   });
-
+// Recommended Map Two
+    var recMapTwo = new google.maps.Map(document.getElementById("map-rec-two"), {
+    zoom: 7.5,
+    center: {
+      lat: 39.9042,
+      lng: 116.4074,
+    },
+  });
+// Recommended Map Two
+    var recMapThree = new google.maps.Map(document.getElementById("map-rec-three"), {
+    zoom: 7.5,
+    center: {
+      lat: 39.9042,
+      lng: 116.4074,
+    },
+  });
 }
