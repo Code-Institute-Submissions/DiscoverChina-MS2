@@ -77,7 +77,7 @@ function initMap(){
       lng: 116.4074,
     },
   });
-// Recommended Map Two
+// Recommended Map Three
     var recMapThree = new google.maps.Map(document.getElementById("map-rec-three"), {
     zoom: 7.5,
     center: {
