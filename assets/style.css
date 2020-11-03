@@ -97,9 +97,28 @@ nav {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
+  width: 33.33%;
 }
 
 #myImg:hover {opacity: 0.7;}
+
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 33.33%;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+#myImg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 33.33%;
+}
+
+#myImg3:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
