@@ -21,7 +21,7 @@ function changeImg(){
 window.onload = changeImg;
 
 
-// Get the modal 1
+/// Get the modal 1
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -42,7 +42,7 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-// Get the modal 2
+/// Get the modal 2
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -63,7 +63,7 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-//Get the modal 3
+/// Get the modal 3
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
