@@ -73,16 +73,16 @@ function initMap(){
     var recMapTwo = new google.maps.Map(document.getElementById("map-rec-two"), {
     zoom: 7.5,
     center: {
-      lat: 39.9042,
-      lng: 116.4074,
+      lat: 31.2304,
+      lng: 121.4737,
     },
   });
-// Recommended Map Three
+// Recommended Map Three 
     var recMapThree = new google.maps.Map(document.getElementById("map-rec-three"), {
     zoom: 7.5,
     center: {
-      lat: 39.9042,
-      lng: 116.4074,
+      lat: 22.3193,
+      lng: 114.1694,
     },
   });
 }
