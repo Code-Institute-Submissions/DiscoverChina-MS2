@@ -97,7 +97,7 @@ nav {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 33.33%;
+  width: 31%;
 }
 
 #myImg:hover {opacity: 0.7;}
@@ -106,7 +106,7 @@ nav {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 33.33%;
+  width: 31%;
 }
 
 #myImg2:hover {opacity: 0.7;}
@@ -115,7 +115,7 @@ nav {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 33.33%;
+  width: 31%;
 }
 
 #myImg3:hover {opacity: 0.7;}
