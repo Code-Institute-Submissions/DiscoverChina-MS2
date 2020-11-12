@@ -1,3 +1,33 @@
+// array of lat and lng locations
+let locations = [
+    {
+      lat:-33.91722,
+      lng:151.23064
+    },
+    {
+    lat:22.3193,
+    lng:114.1694
+    },
+    {
+    lat:22.3255,
+    lng:114.3532
+    },
+    {
+    lat:23.3532,
+    lng:115.1234
+    }
+];
+let elements = ['maps', 'map-rec-one', 'map-rec-two', 'map-rec-three']; // array of html element ids
+
+for (i = 0; i < elements.length; i++) {
+    initMap(locations[i], elements[i]);
+}
+
+function initMap(location, element) {
+    map = new google.maps.Map(document.getElementById(element), {center: location});
+
+ 
+/*
 function initMap(){
   // Map options
   var options = {
@@ -86,3 +116,4 @@ function initMap(){
     },
   });
 }
+*/
