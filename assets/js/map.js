@@ -19,14 +19,34 @@ let locations = [
 ];
 let elements = ['maps', 'map-rec-one', 'map-rec-two', 'map-rec-three']; // array of html element ids
 
+window.addEventListener('load', 
+function() {
 for (i = 0; i < elements.length; i++) {
     initMap(locations[i], elements[i]);
-}
+    console.log(elements[i]);
+    console.log(locations[i])}
+}, false);
 
 function initMap(location, element) {
-    map = new google.maps.Map(document.getElementById(element), {center: location});
+    console.log(location)
+    console.log(element)
+    map = new google.maps.Map(document.getElementById(element), {zoom:4, center: location});
+}
 
- 
+// window.addEventListener('load', initMap())
+
+// function initMap(){
+//     console.log(elements.length)
+
+//     for (element in elements) {
+//         console.log(element)
+//         map = new google.maps.Map(document.getElementById(element), {
+//         center: { lat: -34.397, lng: 150.644 },
+//         zoom: 8,
+//         });
+//     }
+// }
+
 /*
 function initMap(){
   // Map options
