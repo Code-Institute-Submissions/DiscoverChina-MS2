@@ -59,10 +59,14 @@ function initMap(location, element) {
     }
   ];
 
+
+    var markerPush = [];
+    markerPush.push();
+
   // Loop through markers
-  for(var i = 0;i < markers.length;i++){
+  for(var i = 0;i < markersContent.length;i++){
     // Add marker
-    addMarker(markers[i]);
+    addMarker(markersContent[i]);
   }
 
   // Add Marker Function
