@@ -41,7 +41,7 @@ function initMap(location, element) {
   google.maps.event.addListener(map, 'click', function(event){
   });
   // Array of markers
-  var markers = [
+  var markersContent = [
     {
       coords:{lat:31.2403,lng:121.4906},
       iconImage:'assets/images/marker.png',
@@ -59,23 +59,20 @@ function initMap(location, element) {
     }
   ];
 
-
-    var markerPush = [];
-    markerPush.push();
-
   // Loop through markers
   for(var i = 0;i < markersContent.length;i++){
     // Add marker
     addMarker(markersContent[i]);
-  }
 
-  // Add Marker Function
-  function addMarker(props){
+    markerPush.push(marker);
+
     var marker = new google.maps.Marker({
-      position:props.coords,
+      position:props.coords, 
       map:map,
       //icon:props.iconImage
     });
+  }
+    var markerPush = [];
 
     // Check for customicon
     if(props.iconImage){
@@ -94,7 +91,6 @@ function initMap(location, element) {
       });
     }
   }
-}
 
 // window.addEventListener('load', initMap())
 
