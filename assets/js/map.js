@@ -55,33 +55,44 @@ function initMap(location, element) {
     {
       coords:{lat:22.3193,lng:114.1694},
       iconImage:'assets/images/marker.png',
-      content: '<h2>Hong Kong</h2>'
+      content: '<h2>Hong Kong</h2>' 
     }
-  ];
-
+  ];  
+  
+    var markerPush = [];
+console.log(markerPush);
   // Loop through markers
   for(var i = 0;i < markersContent.length;i++){
     // Add marker
-    addMarker(markersContent[i]);
+    markersContent[i];
 
-    markerPush.push(marker);
-
-    var marker = new google.maps.Marker({
-      position:props.coords, 
+    var marker = new google.maps.Marker({ 
+      position:markersContent[i].coords,  
       map:map,
       //icon:props.iconImage
-    });
+    }); 
+  
+    markerPush.push(marker); 
   }
-    var markerPush = [];
+
+    return new google.maps.Marker({  
+        position: location,
+        label: labels[i % labels.length],
+        });
+
+    new MarkerClusterer(map, markers, { 
+    imagePath:
+      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+  });
 
     // Check for customicon
-    if(props.iconImage){
-      // Set icon image 
+    if(markersContent.iconImage){ 
+      // Set icon image  
       marker.setIcon(props.iconImage);
     }
 
     // Check content
-    if(props.content){
+    if(markersContent.content){
       var infoWindow = new google.maps.InfoWindow({
         content:props.content
       });
