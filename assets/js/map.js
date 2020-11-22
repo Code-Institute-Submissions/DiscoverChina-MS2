@@ -62,7 +62,7 @@ function initMap(location, element) {
    const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   
     var markerPush = [];
-console.log(markerPush);
+
   // Loop through markers
   for(var i = 0;i < markersContent.length;i++){
     // Add marker
@@ -77,10 +77,12 @@ console.log(markerPush);
     markerPush.push(marker); 
   } 
 
-    return new google.maps.Marker({  
-        position: location,
-        label: labels[i % labels.length],
-        });
+  const markers = locations.map((location, i) => {
+    return new google.maps.Marker({
+      position: location,
+      label: labels[i % labels.length],
+    });
+  });
 
     new MarkerClusterer(map, markers, { 
     imagePath:
