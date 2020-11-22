@@ -58,6 +58,8 @@ function initMap(location, element) {
       content: '<h2>Hong Kong</h2>' 
     }
   ];  
+
+   const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   
     var markerPush = [];
 console.log(markerPush);
@@ -73,7 +75,7 @@ console.log(markerPush);
     }); 
   
     markerPush.push(marker); 
-  }
+  } 
 
     return new google.maps.Marker({  
         position: location,
