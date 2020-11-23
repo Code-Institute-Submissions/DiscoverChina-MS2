@@ -168,3 +168,16 @@ nav {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* FORM */
+
+#form-wrapper {
+    margin: auto;
+}
+
+.form-input {
+    border: 2px solid black;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+}
