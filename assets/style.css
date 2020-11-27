@@ -70,3 +70,128 @@ nav {
     font-size: 25px;
 }
 
+/* Recommended Location */
+.container-btns {
+  background: #f25b43;
+  width: 100%;
+}
+
+.btn-locations {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  -webkit-box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 1);
+  box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-locations:focus {
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.btn-shanghai {
+  background: url("images/shanghai.jpg") no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 8px solid white;
+}
+
+.btn-beijing {
+  background: url("images/beijing.jpg") no-repeat center;
+  background-size: cover;
+  border: 8px solid white;
+}
+
+.btn-hong-kong {
+  background: url("images/nanjingroad.jpg") no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 8px solid white;
+}
+
+.btn-shanghai:hover {
+  border: 12px solid #a61f0b;
+}
+
+.btn-beijing:hover {
+  border: 12px solid #a61f0b;
+}
+.btn-hong-kong:hover {
+  border: 12px solid #a61f0b;
+}
+
+.options {
+  display: none;
+}
+
+.options-btn {
+  margin: auto;
+  height: 60px;
+  width: 190px;
+  background: #fff3db;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+.margin-btn-top-bottom {
+  padding: 40px 0;
+}
+
+
+.options-btn:focus {
+  outline: none;
+  background: #fff3db;
+  color: black;
+  border: 2px solid #a61f0b;
+}
+
+#chose-beijing .options-btn {
+  background: #fff3db;
+  color: black;
+}
+
+#chose-beijing .options-btn:focus {
+  background: #fff3db;
+  color: black;
+  border: 5px solid #a61f0b;
+}
+
+#chose-hong-kong .options-btn {
+  background: #fff3db;
+  color: black;
+}
+
+#chose-hong-kong .options-btn:focus {
+  background: #fff3db;
+  color: black;
+  border: 5px solid #a61f0b;
+}
+
+.container-map {
+  background: #542527;
+}
+
+.info {
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.info-shanghai,
+.info-beijing,
+.info-hong-kong {
+  display: none;
+}
+
+.info-img {
+  max-width: 30%;
+  height: 60%;
+}
+
+.info-text {
+  color: #eaeaea;
+}
