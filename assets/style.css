@@ -76,6 +76,10 @@ nav {
   width: 100%;
 }
 
+.btn-top-margin {
+  margin-top: 30px;
+}
+
 .btn-locations {
   border-radius: 50%;
   height: 180px;
@@ -283,17 +287,54 @@ nav {
 
 /* Contact Form */
 
-.form-input-styling {
+.form-container {
+  margin-top: 30px;
+}
+
+.form-h2 {
+  padding: 6px 0;
+  font-family: 'Stylish', 'Lato', sans-serif;
+  color: #a61f0b;
+  font-size: 45px;
+}
+
+.form-input-styling, .form-textArea-styling {
   border-radius: 0 2em;
   padding: 0 10px;
   width: 50%;
   border: none;
-  line-height: 2em;
+  line-height: 3em;
   margin-bottom: 20px;
   background-color: #f25b43;
   outline: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-input-styling:focus, .form-textArea-styling:focus, .form-submit-styling:focus {
+  border: 5px solid #a61f0b;
+}
+
+::placeholder {
+  padding-left: 10px;
+  color: white;
+}
+
+.form-submit-styling {
+  border-radius: 0 2em;
+  padding: 0 10px;
+  width: 20%;
+  border: none;
+  line-height: 3em;
+  background-color: #f25b43;
+  outline: none;
+  color: white;
+  font-weight: 600;
 }
 
 #temp-spacing {
   margin: 100vh;
 }
+
