@@ -280,3 +280,20 @@ nav {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* Contact Form */
+
+.form-input-styling {
+  border-radius: 0 2em;
+  padding: 0 10px;
+  width: 50%;
+  border: none;
+  line-height: 2em;
+  margin-bottom: 20px;
+  background-color: #f25b43;
+  outline: none;
+}
+
+#temp-spacing {
+  margin: 100vh;
+}
