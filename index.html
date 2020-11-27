@@ -45,7 +45,65 @@
           </div>
         </div>
 <!----About Section End---->
-
+<!----Recommended Locations-->
+      <section id="recommended-locations">
+          <div class="container-fluid container-btns">
+            <div class="row text-center">
+              <div class="col-4 locations shanghai">
+                <button
+                  class="btn-locations btn-shanghai"
+                  onclick="chooseCategorie('chose-shanghai')"
+                ></button>
+                <h3>Shanghai</h3>
+              </div>
+              <div class="col-4 locations beijing">
+                <button
+                  class="btn-locations btn-beijing"
+                  onclick="chooseCategorie('chose-beijing')"
+                ></button>
+                <h3>Beijing</h3>
+              </div>
+              <div class="col-4 locations hong-kong">
+                <button
+                  class="btn-locations btn-hong-kong"
+                  onclick="chooseCategorie('chose-hong-kong')"
+                ></button>
+                <h3>Hong Kong</h3>
+              </div>
+            </div>
+            <div class="row text-center margin-btn-top-bottom">
+              <div id="chose-shanghai" class="col-12 options">
+                <button
+                  class="options-btn"
+                  onclick="choosePlace('shanghai-test')"
+                  data-lat="31.224361"
+                  data-lng="121.469170"
+                >
+                  TOURIST SHANGHAI
+                </button>
+              </div>
+              <div id="chose-beijing" class="col-12 options">
+                <button
+                  class="options-btn"
+                  onclick="choosePlace('test-beijing')"
+                  data-lat="39.916668"
+                  data-lng="116.383331"
+                >
+                  TOURIST BEJING
+                </button>
+              </div>
+              <div id="chose-hong-kong" class="col-12 options">
+                <button
+                  class="options-btn"
+                  onclick="choosePlace('test-hong-kong')"
+                  data-lat="22.302711"
+                  data-lng="114.177216"
+                >
+                  TOURIST HONG-KONG
+                </button>
+              </div>
+            </div>
+        </div>
 
 <!----Contact Form---->
 <section>
