@@ -19,13 +19,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link nav-link-styling" href="#">About <span class="sr-only">(current)</span></a>
+              <a class="nav-link nav-link-styling" href="#about">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-styling" href="#">Locations</a>
+              <a class="nav-link nav-link-styling" href="#locations">Locations</a>
             </li> 
             <li class="nav-item">
-                <a class="nav-link nav-link-styling" href="#">Contact</a>
+                <a class="nav-link nav-link-styling" href="#contact">Contact</a>
             </li>
       </nav>
 <!--Hero Image/Slide-->
@@ -37,7 +37,7 @@
 <!--Inside Background Colour-->
         <div id="inside-background-colour">
 <!--About Section---->
-        <div class="container text-center">
+        <div id="about" class="container text-center">
           <div class="row">
             <div class="col-12">
               <div class="col-12"><h2 class="about-h2-styling">Discover China</h2></div>
@@ -47,24 +47,24 @@
         </div>
 <!--About Section End-->
 <!--Recommended Locations-->
-      <section id="recommended-locations">
+      <section id="locations" id="recommended-locations">
           <div class="container-fluid container-btns">
             <div class="row text-center">
-              <div class="col-4 locations shanghai btn-top-margin">
+              <div class="col-12 col-md-4 locations shanghai btn-top-margin">
                 <button
                   class="btn-locations btn-shanghai"
                   onclick="chooseCategorie('chose-shanghai')"
                 ></button>
                 <h3>Shanghai</h3>
               </div>
-              <div class="col-4 locations beijing btn-top-margin">
+              <div class="col-12 col-md-4 locations beijing btn-top-margin">
                 <button
                   class="btn-locations btn-beijing"
                   onclick="chooseCategorie('chose-beijing')"
                 ></button>
                 <h3>Beijing</h3>
               </div>
-              <div class="col-4 locations hong-kong btn-top-margin">
+              <div class="col-12 col-md-4 locations hong-kong btn-top-margin">
                 <button
                   class="btn-locations btn-hong-kong"
                   onclick="chooseCategorie('chose-hong-kong')"
@@ -127,17 +127,15 @@
                   </p>
                 </div>
               </div>
-              <div class="row text-center">
-                <div class="col-12"> 
-                  <span class="col-4"><img id="myImg" src="assets/images/orientalPearlTower1.jpg" alt="Arial view of Beijing"></span>
-                  <span class="col-4"><img id="myImg2" src="assets/images/orientalPearlTower2.jpg" alt="Forbidden city Beijing"></span>
-                  <span class="col-4"><img id="myImg3" src="assets/images/orientalPearlTower3.jpg" alt="Temple of Heaven Beijing"></span>
+                <div class="row modal-wrapper text-center"> 
+                  <span class="col-12 col-md-4"><img id="myImg" src="assets/images/orientalPearlTower1.jpg" alt="Arial view of Beijing"></span>
+                  <span class="col-12 col-md-4"><img id="myImg2" src="assets/images/orientalPearlTower2.jpg" alt="Forbidden city Beijing"></span>
+                  <span class="col-12 col-md-4"><img id="myImg3" src="assets/images/orientalPearlTower3.jpg" alt="Temple of Heaven Beijing"></span>
                   <div id="myModal" class="modal">
                       <span class="close">&times;</span>
                       <img class="modal-content" id="img01">
                       <div id="caption"></div>
                   </div>
-              </div>
               </div>
             </div>
             <!--Beijing Info-->
@@ -152,18 +150,16 @@
                 </p>
               </div>
             </div>
-            <div class="row text-center">
-              <div class="col-12"> 
-                <span class="col-4"><img id="myImg4" src="assets/images/beijing.jpg" alt="Nanjing road Shanghai"></span>
-                <span class="col-4"><img id="myImg5" src="assets/images/beijing.jpg" alt="Pedestrian street Shanghai"></span>
-                <span class="col-4"><img id="myImg6" src="assets/images/beijing.jpg" alt="Monument to the People’s Heroes Shanghai"></span>
+              <div class="row text-center col-12"> 
+                <span class="col-12 col-md-4"><img id="myImg4" src="assets/images/beijing.jpg" alt="Nanjing road Shanghai"></span>
+                <span class="col-12 col-md-4"><img id="myImg5" src="assets/images/beijing.jpg" alt="Pedestrian street Shanghai"></span>
+                <span class="col-12 col-md-4"><img id="myImg6" src="assets/images/beijing.jpg" alt="Monument to the People’s Heroes Shanghai"></span>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span>
                     <img class="modal-content" id="img02">
                     <div id="caption2"></div>
                 </div>
             </div>
-          </div>
             </div>
             <!--HongKong Info-->
             <div id="test-hong-kong" class="info info-hong-kong">
@@ -179,9 +175,9 @@
             </div>
             <div class="row text-center">
               <div class="col-12"> 
-                <span class="col-4"><img id="myImg7" src="assets/images/beijing.jpg" alt="Victoria peak Hong Kong"></span>
-                <span class="col-4"><img id="myImg8" src="assets/images/beijing.jpg" alt="Temple street night market Hong Kong"></span>
-                <span class="col-4"><img id="myImg9" src="assets/images/beijing.jpg" alt="Snow"></span>
+                <span class="col-12 col-md-4"><img id="myImg7" src="assets/images/beijing.jpg" alt="Victoria peak Hong Kong"></span>
+                <span class="col-12 col-md-4"><img id="myImg8" src="assets/images/beijing.jpg" alt="Temple street night market Hong Kong"></span>
+                <span class="col-12 col-md-4"><img id="myImg9" src="assets/images/beijing.jpg" alt="Snow"></span>
                 <div id="myModal" class="modal">
                     <span class="close">&times;</span> 
                     <img class="modal-content" id="img01">
@@ -190,14 +186,14 @@
             </div>
             </div>
             </div>
-                        <!--Map-->
-            <div class="row">
-            <div class="col-12" id="map"></div>
-          </div>
-          </div>
-      </section>
+<!--Map-->
+  <div class="row">
+    <div class="col-12" id="map"></div>
+  </div>
+</div>
+</section>
 <!--Contact Form-->
-<section>
+<section id="contact">
 <div class="container text-center form-container">
     <div class="row">
         <h2 class="col-12 form-h2">Need more information about China? Get In touch!</h2>
