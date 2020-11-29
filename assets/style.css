@@ -289,6 +289,7 @@ nav {
 
 .form-container {
   margin-top: 30px;
+  padding-bottom: 30px;
 }
 
 .form-h2 {
@@ -334,7 +335,18 @@ nav {
   font-weight: 600;
 }
 
-#temp-spacing {
-  margin: 100vh;
+/* Footer */
+
+.footer-container {
+  padding-top: 10px;
+  background-color: #f25b43;
 }
 
+.social-icon {
+  color: white;
+  font-size: 30px;
+}
+
+.social-icon:hover {
+  color: #a61f0b;
+}
