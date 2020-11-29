@@ -1,8 +1,13 @@
 # TITLE
 
 ## UX 
+This project is targeted at a wide range of users, from distinguished travellers to first time travellers. The main focus on the website is information, recommended locations, images, maps, contact and social media links.
 
-### Project Goals
+### Strategy
+
+#### Project Goals
+* Show 3 recommended locations in China.
+* Show tourist destinations in each of the recommended locations.
 
 ### Owner Stories
 * "I want my users to be able to get in contact by submitting a form"
@@ -18,9 +23,12 @@
 ### Surface
 
 #### Colours
-
+ Oriental style colours, to match the theme of the website.
+ [image](assets/imges/#a61f0b.PNG)
+ [image](assets/images/#f25b43.PNG)
 #### Typography
-
+-"Stylish" Used for titles as it goes well with the oriental theme.
+-"Lato" Used for most of the text through out website, as it is clean font which is easy on the eye.
 ### Wireframes
 
 ## Features 
