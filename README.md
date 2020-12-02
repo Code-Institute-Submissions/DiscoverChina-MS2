@@ -1,5 +1,7 @@
 # TITLE
 
+[LiveSite](https://jacktubby.github.io/MS2/)
+
 ## UX 
 This project is targeted at a wide range of users, from distinguished travellers to first time travellers. The main focus on the website is information, recommended locations, images, maps, contact and social media links.
 
@@ -24,7 +26,7 @@ This project is targeted at a wide range of users, from distinguished travellers
 
 #### Colours
  Oriental style colours, to match the theme of the website.
- ![image](assets/imges/#a61f0b.PNG)
+ ![image](assets/images/#a61f0b.PNG)
  ![image](assets/images/#f25b43.PNG)
 #### Typography
 -"Stylish" Used for titles as it goes well with the oriental theme.
