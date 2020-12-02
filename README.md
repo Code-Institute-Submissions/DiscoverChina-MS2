@@ -33,6 +33,18 @@ This project is targeted at a wide range of users, from distinguished travellers
 
 ## Features 
 
-### Existing Features
-
-* Designed with HTML5, CSS3, Bootstrap and Javascript.
+### Languages, Frameworks, Libraries & Programs Used 
+* HTML5
+* CSS3
+* Javascript
+* JQuery
+* Bootstrap
+ * I used bootstrap to assist with responsiveness of the website.
+* Google Fonts
+ * Google fonts was used to give the fonts 'Stylish' and 'Lato'.
+* Git
+ * Git was used for version control to commit to Git and Push to GitHub.
+* GitHub
+ * GitHub was used to store the project in a repository.
+* Balsamiq
+ * Balsamiq was used to create the wireframes during the early design process.
