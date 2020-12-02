@@ -29,6 +29,8 @@ This project is targeted at a wide range of users, from distinguished travellers
 #### Typography
 -"Stylish" Used for titles as it goes well with the oriental theme.
 -"Lato" Used for most of the text through out website, as it is clean font which is easy on the eye.
+#### Imagery
+
 ### Wireframes
 
 ## Features 
@@ -56,7 +58,8 @@ This project is targeted at a wide range of users, from distinguished travellers
  ## Credits
 
  ### Code
-
+ [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap was used to add responsiveness to the website.
+ [Pexels](https://www.pexels.com/): Pexels was used to provide images for the website.
  ### Content
 
  ### Acknowledgements
