@@ -24,8 +24,8 @@ This project is targeted at a wide range of users, from distinguished travellers
 
 #### Colours
  Oriental style colours, to match the theme of the website.
- [image](assets/imges/#a61f0b.PNG)
- [image](assets/images/#f25b43.PNG)
+ ![image](assets/imges/#a61f0b.PNG)
+ ![image](assets/images/#f25b43.PNG)
 #### Typography
 -"Stylish" Used for titles as it goes well with the oriental theme.
 -"Lato" Used for most of the text through out website, as it is clean font which is easy on the eye.
@@ -36,20 +36,20 @@ This project is targeted at a wide range of users, from distinguished travellers
 ## Features 
 
 ### Languages, Frameworks, Libraries & Programs Used 
-* HTML5
-* CSS3
-* Javascript
-* JQuery
-* Bootstrap
- * I used bootstrap to assist with responsiveness of the website.
-* Google Fonts
- * Google fonts was used to give the fonts 'Stylish' and 'Lato'.
-* Git
- * Git was used for version control to commit to Git and Push to GitHub.
-* GitHub
- * GitHub was used to store the project in a repository.
-* Balsamiq
- * Balsamiq was used to create the wireframes during the early design process.
+- HTML5
+- CSS3
+- Javascript
+- JQuery
+- Bootstrap
+ - I used bootstrap to assist with responsiveness of the website.
+- Google Fonts
+ - Google fonts was used to give the fonts 'Stylish' and 'Lato'.
+- Git
+ - Git was used for version control to commit to Git and Push to GitHub.
+- GitHub
+ - GitHub was used to store the project in a repository.
+- Balsamiq
+ - Balsamiq was used to create the wireframes during the early design process.
 
  ## Testing
 
