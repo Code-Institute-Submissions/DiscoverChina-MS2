@@ -33,7 +33,24 @@ function chooseCategorie(chosen) {
   }
   
   function choosePlace(chosen) {
-    const options = document.getElementsByClassName("info");
+    //const options = document.getElementsByClassName("info");
+    const options = $('.secondOptions');
+    const info = $('.info');
+
+    for (i = 0; i < options.length; i++) {
+      options[i].style.display = "none";
+    }
+
+    for (let x = 0; x < info.length; x++) {
+        info[x].style.display = "none";
+    }
+  
+    document.getElementById(chosen).style.display = "block";
+  }
+
+   function chooseInfo(chosen) {
+    //const options = document.getElementsByClassName("secondOptions");
+    const options = $('.options');
 
     for (i = 0; i < options.length; i++) {
       options[i].style.display = "none";
@@ -44,7 +61,7 @@ function chooseCategorie(chosen) {
 
   /* Modal */
 
-//// Modals Script ////
+//// Modals Script //// 
 //// Get the modal Image 1
 var modal = document.getElementById("myModal");
 
@@ -56,7 +73,7 @@ img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
-}
+} 
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
