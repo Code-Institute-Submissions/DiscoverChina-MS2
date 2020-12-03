@@ -46,7 +46,7 @@
           </div>
         </div>
 <!--About Section End-->
-<!--Recommended Locations-->
+<!--Recommended Locations Three Buttons-->
 <section id="locations" id="recommended-locations">
 <div class="container-fluid container-btns">
   <div class="row text-center">
@@ -72,36 +72,230 @@
       <h3>Hong Kong</h3>
     </div>
   </div>
-  <div class="row text-center margin-btn-top-bottom">
-    <div id="chose-shanghai" class="col-12 options">
-      <button
+  </div>  
+  <!--Data and Options Shanghai-->
+  <div class="container-fluid options-wrapper text-center margin-btn-top-bottom">
+    <div id="chose-shanghai" class="options">
+      <div class="row">
+        <h3 class="col-12 h3-style">
+          Shanghai Data 
+        </h3>
+      </div>
+      <div class="row city-data">
+        <div class="col-12 ">
+          Population: Region: Languages:
+        </div>
+      </div>
+      <div id="shanghai-tourist-locations" class="row options-display-style">
+        <div class="col-12 text-center">
+          <button
+            class="options-btn"
+            onclick="choosePlace('touristDestinations-shanghai')"
+          >
+            Attractions
+          </button>
+          <button
+          class="options-btn"
+          onclick="choosePlace('restaurants-shanghai')"
+        >
+        restaurants
+        </button>
+        <button
         class="options-btn"
-        onclick="choosePlace('shanghai-test')"
-        data-lat="31.2397"
-        data-lng="121.4998"
+        onclick="choosePlace('parks-shanghai')"
       >
-        Oriental Pearl Tower
+        Parks
       </button>
+        </div>
+      </div>
     </div>
-    <div id="chose-beijing" class="col-12 options">
-      <button
+    <!--Data and Options Beijing-->
+    <div id="chose-beijing" class="options">
+      <div class="row">
+        <h3 class="col-12 h3-style">
+          Beijing Data 
+        </h3>
+      </div>
+      <div class="row city-data">
+        <div class="col-12 ">
+          Population: Region: Languages:
+        </div>
+      </div>
+      <div id="beijing-tourist-locations" class="row options-display-style">
+        <div class="col-12 text-center">
+          <button
+            class="options-btn"
+            onclick="choosePlace('touristDestinations-beijing')"
+          >
+            Attractions
+          </button>
+          <button
+          class="options-btn"
+          onclick="choosePlace('restaurants-beijing')"
+        >
+        restaurants
+        </button>
+        <button
         class="options-btn"
-        onclick="choosePlace('test-beijing')"
-        data-lat="39.916668"
-        data-lng="116.383331"
+        onclick="choosePlace('parks-beijing')"
       >
-        Temple Of Heaven
+        Parks
       </button>
+        </div>
+      </div>
     </div>
-    <div id="chose-hong-kong" class="col-12 options">
-      <button
+    <!--Data and Options HongKong-->
+    <div id="chose-hong-kong" class="options">
+      <div class="row">
+        <h3 class="col-12 h3-style">
+          Beijing Data 
+        </h3>
+      </div>
+      <div class="row city-data">
+        <div class="col-12 ">
+          Population: Region: Languages:
+        </div>
+      </div>
+      <div id="beijing-tourist-locations" class="row options-display-style">
+        <div class="col-12 text-center">
+          <button
+            class="options-btn"
+            onclick="choosePlace('touristDestinations-hongkong')"
+          >
+            Attractions
+          </button>
+          <button
+          class="options-btn"
+          onclick="choosePlace('restaurants-hongkong')"
+        >
+        restaurants
+        </button>
+        <button
         class="options-btn"
-        onclick="choosePlace('test-hong-kong')"
-        data-lat="22.302711"
-        data-lng="114.177216"
+        onclick="choosePlace('parks-hongkong')"
       >
-      Victoria Peak
+        Parks
       </button>
+        </div>
+      </div>
+    </div>
+</div>
+<!--Attractions Shanghai-->
+<div class="container-fluid options-wrapper text-center margin-btn-top-bottom">
+  <div id="touristDestinations-shanghai" class="options">
+    <div class="row options-display-style">
+      <div class="col-12 text-center">
+        <button
+          class="options-btn"
+          onclick="choosePlace('orientalPearlTower')"
+        >
+          Oriental Pearl Tower
+        </button>
+      </div>
+    </div>
+  </div>
+<!--Attractions Beijing-->
+  <div id="touristDestinations-beijing" class="options">
+    <div class="row options-display-style">
+      <div class="col-12 text-center">
+        <button
+          class="options-btn"
+          onclick="choosePlace('orientalPearlTower')"
+        >
+          Oriental Pearl Tower
+        </button>
+      </div>
+    </div>
+  </div>
+<!--Attractions HongKong-->
+  <div id="touristDestinations-hongkong" class="options">
+    <div class="row options-display-style">
+      <div class="col-12 text-center">
+        <button
+          class="options-btn"
+          onclick="choosePlace('orientalPearlTower')"
+        >
+          Oriental Pearl Tower
+        </button>
+      </div>
+    </div>
+  </div>
+<!--Restaurants Shanghai-->
+  <div id="restaurants-shanghai" class="options">
+    <div class="row options-display-style">
+      <div class="col-12 text-center">
+        <button
+          class="options-btn"
+          onclick="choosePlace('orientalPearlTower')"
+        >
+        Restaurants name
+        </button>
+      </div>
+    </div>
+  </div>
+<!--Restaurants Beijing-->
+  <div id="restaurants-beijing" class="options">
+    <div class="row options-display-style">
+      <div class="col-12 text-center">
+        <button
+          class="options-btn"
+          onclick="choosePlace('orientalPearlTower')"
+        >
+        Restaurants name
+        </button>
+      </div>
+    </div>
+  </div>
+<!--Restaurants HongKong-->
+  <div id="restaurants-hongkong" class="options">
+    <div class="row options-display-style">
+      <div class="col-12 text-center">
+        <button
+          class="options-btn"
+          onclick="choosePlace('orientalPearlTower')"
+        >
+        Restaurants name
+        </button>
+      </div>
+    </div>
+  </div>
+<!--Parks Shanghai-->
+  <div id="parks-shanghai" class="options">
+    <div class="row options-display-style">
+      <div class="col-12 text-center">
+        <button
+          class="options-btn"
+          onclick="choosePlace('orientalPearlTower')"
+        >
+         park name
+        </button>
+      </div>
+    </div>
+  </div>
+<!--Parks Beijing-->
+  <div id="parks-beijing" class="options">
+    <div class="row options-display-style">
+      <div class="col-12 text-center">
+        <button
+          class="options-btn"
+          onclick="choosePlace('orientalPearlTower')"
+        >
+         park name
+        </button>
+      </div>
+    </div>
+  </div>
+<!--Parks HongKong-->
+  <div id="parks-hongkong" class="options">
+    <div class="row options-display-style">
+      <div class="col-12 text-center">
+        <button
+          class="options-btn"
+          onclick="choosePlace('orientalPearlTower')"
+        >
+         park name
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -114,7 +308,8 @@
 </div>
             <!--Open info Sections-->
 <!--Shanghai Info-->
-<div id="shanghai-test" class="info info-shanghai">
+<!--Oriental Pearl Tower-->
+<div id="orientalPearlTower" class="info info-shanghai">
   <div class="row text-center">
     <!-- Trigger the Modal -->
     <img class="col-12 col-md-6 info-img" id="myImg" src="assets/images/orientalPearlTower1.jpg" alt="Oriental Pearl Tower Shanghai">
