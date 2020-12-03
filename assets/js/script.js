@@ -29,11 +29,12 @@ function chooseCategorie(chosen) {
       options[i].style.display = "none";
     }
   
-    document.getElementById(chosen).style.display = "flex";
+    document.getElementById(chosen).style.display = "inline-block";
   }
   
   function choosePlace(chosen) {
     const options = document.getElementsByClassName("info");
+
     for (i = 0; i < options.length; i++) {
       options[i].style.display = "none";
     }
