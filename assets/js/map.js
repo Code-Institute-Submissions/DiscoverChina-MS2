@@ -71,6 +71,6 @@ function initMap() {
   });
 
   const locations = [
-    ["shanghai-test", 39.31361, 3.121398]
+    ["orientalPearlTower", 39.31361, 3.121398]
   ];
 }
