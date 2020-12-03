@@ -146,6 +146,10 @@ nav {
   padding-bottom: 25px;
 }
 
+.secondOptions {
+    display: none;
+}
+
 .options {
   display: none;
 }
