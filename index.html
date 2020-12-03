@@ -47,166 +47,156 @@
         </div>
 <!--About Section End-->
 <!--Recommended Locations-->
-      <section id="locations" id="recommended-locations">
-          <div class="container-fluid container-btns">
-            <div class="row text-center">
-              <div class="col-12 col-md-4 locations shanghai btn-top-margin">
-                <button
-                  class="btn-locations btn-shanghai"
-                  onclick="chooseCategorie('chose-shanghai')"
-                ></button>
-                <h3>Shanghai</h3>
-              </div>
-              <div class="col-12 col-md-4 locations beijing btn-top-margin">
-                <button
-                  class="btn-locations btn-beijing"
-                  onclick="chooseCategorie('chose-beijing')"
-                ></button>
-                <h3>Beijing</h3>
-              </div>
-              <div class="col-12 col-md-4 locations hong-kong btn-top-margin">
-                <button
-                  class="btn-locations btn-hong-kong"
-                  onclick="chooseCategorie('chose-hong-kong')"
-                ></button>
-                <h3>Hong Kong</h3>
-              </div>
-            </div>
-            <div class="row text-center margin-btn-top-bottom">
-              <div id="chose-shanghai" class="col-12 options">
-                <button
-                  class="options-btn"
-                  onclick="choosePlace('shanghai-test')"
-                  data-lat="31.2397"
-                  data-lng="121.4998"
-                >
-                  Oriental Pearl Tower
-                </button>
-              </div>
-              <div id="chose-beijing" class="col-12 options">
-                <button
-                  class="options-btn"
-                  onclick="choosePlace('test-beijing')"
-                  data-lat="39.916668"
-                  data-lng="116.383331"
-                >
-                  TOURIST BEJING
-                </button>
-              </div>
-              <div id="chose-hong-kong" class="col-12 options">
-                <button
-                  class="options-btn"
-                  onclick="choosePlace('test-hong-kong')"
-                  data-lat="22.302711"
-                  data-lng="114.177216"
-                >
-                  TOURIST HONG-KONG
-                </button>
-              </div>
-            </div>
-        </div>
-          <!--Active Info Sections-->
-          <div class="container-fluid container-map">
-            <div class="row info active-img text-center">
-              <div class="info-text col-12">
-                <h2>
-                  Select A Recommended Location Above 
-                </h2>
-              </div>
-            </div>
-                        <!--Open info Sections-->
-            <!--Shanghai Info-->
-            <div id="shanghai-test" class="info info-shanghai">
-              <div class="row text-center">
-              <div class="col-12"><h3>Oriental Pearl Tower</h3></div>
-                <div class="info-text col-12">
-                  <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, corporis cupiditate, 
-                  ab quibusdam nostrum cum enim necessitatibus repellendus eaque, tempora maiores atque 
-                  quos et assumenda excepturi ducimus quo quis natus!
-                  </p>
-                </div>
-              </div>
-                <div class="row modal-wrapper text-center"> 
-                  <span class="col-12 col-md-4"><img id="myImg" src="assets/images/orientalPearlTower1.jpg" alt="Arial view of Beijing"></span>
-                  <span class="col-12 col-md-4"><img id="myImg2" src="assets/images/orientalPearlTower2.jpg" alt="Forbidden city Beijing"></span>
-                  <span class="col-12 col-md-4"><img id="myImg3" src="assets/images/orientalPearlTower3.jpg" alt="Temple of Heaven Beijing"></span>
-                  <div id="myModal" class="modal">
-                      <span class="close">&times;</span>
-                      <img class="modal-content" id="img01">
-                      <div id="caption"></div>
-                  </div>
-              </div>
-            </div>
-            <!--Beijing Info-->
-            <div id="test-beijing" class="info info-beijing">
-              <div class="row text-center">
-              <div class="col-12"><h3>Shanghai</h3></div>
-              <div class="info-text col-12">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, qui iure illo magni 
-                  adipisci nobis incidunt, eveniet deleniti saepe nesciunt similique laudantium ipsam 
-                  nostrum quo corrupti id quae aspernatur quia?
-                </p>
-              </div>
-            </div>
-              <div class="row text-center col-12"> 
-                <span class="col-12 col-md-4"><img id="myImg4" src="assets/images/beijing.jpg" alt="Nanjing road Shanghai"></span>
-                <span class="col-12 col-md-4"><img id="myImg5" src="assets/images/beijing.jpg" alt="Pedestrian street Shanghai"></span>
-                <span class="col-12 col-md-4"><img id="myImg6" src="assets/images/beijing.jpg" alt="Monument to the People’s Heroes Shanghai"></span>
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span>
-                    <img class="modal-content" id="img02">
-                    <div id="caption2"></div>
-                </div>
-            </div>
-            </div>
-            <!--HongKong Info-->
-            <div id="test-hong-kong" class="info info-hong-kong">
-              <div class="row text-center">
-              <div class="col-12"><h3>Shanghai</h3></div>
-              <div class="info-text col-12">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem at sit soluta magni, 
-                  aspernatur voluptas eum atque porro deleniti autem nisi inventore assumenda libero 
-                  nostrum temporibus totam, esse aliquam voluptatem.
-                </p>
-              </div>
-            </div>
-            <div class="row text-center">
-              <div class="col-12"> 
-                <span class="col-12 col-md-4"><img id="myImg7" src="assets/images/beijing.jpg" alt="Victoria peak Hong Kong"></span>
-                <span class="col-12 col-md-4"><img id="myImg8" src="assets/images/beijing.jpg" alt="Temple street night market Hong Kong"></span>
-                <span class="col-12 col-md-4"><img id="myImg9" src="assets/images/beijing.jpg" alt="Snow"></span>
-                <div id="myModal" class="modal">
-                    <span class="close">&times;</span> 
-                    <img class="modal-content" id="img01">
-                    <div id="caption"></div>
-                </div>
-            </div>
-            </div>
-            </div>
-<!--Map-->
-  <div class="row">
-    <div class="col-12" id="map"></div>
+<section id="locations" id="recommended-locations">
+<div class="container-fluid container-btns">
+  <div class="row text-center">
+    <div class="col-12 col-md-4 locations shanghai btn-top-margin">
+      <button
+        class="btn-locations btn-shanghai"
+        onclick="chooseCategorie('chose-shanghai')"
+      ></button>
+      <h3>Shanghai</h3>
+    </div>
+    <div class="col-12 col-md-4 locations beijing btn-top-margin">
+      <button
+        class="btn-locations btn-beijing"
+        onclick="chooseCategorie('chose-beijing')"
+      ></button>
+      <h3>Beijing</h3>
+    </div>
+    <div class="col-12 col-md-4 locations hong-kong btn-top-margin">
+      <button
+        class="btn-locations btn-hong-kong"
+        onclick="chooseCategorie('chose-hong-kong')"
+      ></button>
+      <h3>Hong Kong</h3>
+    </div>
   </div>
+  <div class="row text-center margin-btn-top-bottom">
+    <div id="chose-shanghai" class="col-12 options">
+      <button
+        class="options-btn"
+        onclick="choosePlace('shanghai-test')"
+        data-lat="31.2397"
+        data-lng="121.4998"
+      >
+        Oriental Pearl Tower
+      </button>
+    </div>
+    <div id="chose-beijing" class="col-12 options">
+      <button
+        class="options-btn"
+        onclick="choosePlace('test-beijing')"
+        data-lat="39.916668"
+        data-lng="116.383331"
+      >
+        Temple Of Heaven
+      </button>
+    </div>
+    <div id="chose-hong-kong" class="col-12 options">
+      <button
+        class="options-btn"
+        onclick="choosePlace('test-hong-kong')"
+        data-lat="22.302711"
+        data-lng="114.177216"
+      >
+      Victoria Peak
+      </button>
+    </div>
+  </div>
+</div>
+<!--Active Info Sections-->
+<div class="container-fluid container-map">
+  <div class="row info active-img text-center">
+    <div class="info-text col-12">
+    <h2>Select A Recommended Location Above </h2>
+  </div>
+</div>
+            <!--Open info Sections-->
+<!--Shanghai Info-->
+<div id="shanghai-test" class="info info-shanghai">
+  <div class="row text-center">
+    <!-- Trigger the Modal -->
+    <img class="col-12 col-md-6 info-img" id="myImg" src="assets/images/orientalPearlTower1.jpg" alt="Oriental Pearl Tower Shanghai">
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+    </div>
+  <div class="col-12 col-md-6 info-text-wrapper text-center">
+    <div class="col-12"><h3 class="info-h3">Oriental Pearl Tower</h3></div>
+      <div class="info-text col-12">
+        <p>
+          The Oriental Pearl Radio & Television Tower is a TV tower in Shanghai. Its location at the tip of Lujiazui in the Pudong New Area by the side of Huangpu River, opposite 
+          The Bund, makes it a distinct landmark in the area. Its principal designers were Jiang Huan Chen, Lin Benlin, and Zhang Xiulin.
+          <a href="https://en.wikipedia.org/wiki/Oriental_Pearl_Tower" target="_blank">Wiki</a>
+        </p>
+        <h5 class="info-address"> 1 Century Ave, Lu Jia Zui, Pudong, Shanghai, China</h5>
+      </div>
+    </div>
+  </div>
+  </div>
+<!--Beijing Info-->
+<div id="test-beijing" class="info info-beijing">
+  <div class="row text-center">
+    <!-- Trigger the Modal -->
+    <img class="col-12 col-md-6 info-img" id="myImg" src="assets/images/templeofheaven.jpg" alt="Temple Of Heaven Beijing">
+  <div class="col-12 col-md-6 info-text-wrapper text-center">
+    <div class="col-12"><h3 class="info-h3">Temple Of Heaven</h3></div>
+      <div class="info-text col-12">
+        <p>
+          The Temple of Heaven is an imperial complex of religious buildings situated in the southeastern part of central Beijing. 
+          The complex was visited by the Emperors of the Ming and Qing dynasties for annual ceremonies of prayer to Heaven for a good harvest. 
+          <a href="https://en.wikipedia.org/wiki/Temple_of_Heaven" target="_blank">Wiki</a>
+        </p>
+        <h5 class="info-address">1 Tiantan E Rd, Dongcheng, China, 100061</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<!--HongKong Info-->
+<div id="test-hong-kong" class="info info-hong-kong">
+  <div class="row text-center">
+    <!-- Trigger the Modal -->
+    <img class="col-12 col-md-6 info-img" id="myImg" src="assets/images/victoriapeak.jpg" alt="Victoria Peak Hong Kong">
+  <div class="col-12 col-md-6 info-text-wrapper text-center">
+    <div class="col-12"><h3 class="info-h3">Victoria Peak</h3></div>
+      <div class="info-text col-12">
+        <p>
+          Victoria Peak is a hill on the western half of Hong Kong Island. It is also known as Mount Austin, and locally as The Peak. 
+          With an elevation of 552 m, it is the highest hill on Hong Kong island, ranked 31 in terms of elevation in the Hong Kong Special Administrative Region.
+          <a href="https://en.wikipedia.org/wiki/Victoria_Peak" target="_blank">Wiki</a>
+        </p>
+        <h5 class="info-address">The Peak, Hong Kong Island</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Map-->
+<div class="row">
+  <div class="col-12" id="map"></div>
+</div>
 </div>
 </section>
 <!--Contact Form-->
 <section id="contact">
 <div class="container text-center form-container">
-    <div class="row">
-        <h2 class="col-12 form-h2">Need more information about China? Get In touch!</h2>
-    </div>
-    <form id="form-wrapper">
-    <div class="row">
-            <div class="col-12"><input class="form-input form-input-styling" type="text" id="fname" name="fname" required placeholder="Name"></div>
-            <div class="col-12"><input class="form-input form-input-styling" type="email" id="email" name="email" required placeholder="Email"></div>
-            <div class="col-12"><input class="form-input form-input-styling" type="tel" id="phone_num" name="phone_num" placeholder="Phone Number"></div>
-            <div class="col-12"><textarea class="form-textArea-styling" id="text-area" name="textarea" rows="4" cols="50" placeholder="Enter Your Message Here"></textarea></div>
-            <div class="col-12"><input class="form-submit-styling" type="submit" value="Submit"></div>
-    </div>
-  </form>
+  <div class="row">
+      <h2 class="col-12 form-h2">Need more information about China? Get In touch!</h2>
+  </div>
+  <form id="form-wrapper">
+  <div class="row">
+          <div class="col-12"><input class="form-input form-input-styling" type="text" id="fname" name="fname" required placeholder="Name"></div>
+          <div class="col-12"><input class="form-input form-input-styling" type="email" id="email" name="email" required placeholder="Email"></div>
+          <div class="col-12"><input class="form-input form-input-styling" type="tel" id="phone_num" name="phone_num" placeholder="Phone Number"></div>
+          <div class="col-12"><textarea class="form-textArea-styling" id="text-area" name="textarea" rows="4" cols="50" placeholder="Enter Your Message Here"></textarea></div>
+          <div class="col-12"><input class="form-submit-styling" type="submit" value="Submit"></div>
+  </div>
+</form>
 </div>
 </section>
 </section>
