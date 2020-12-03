@@ -76,6 +76,10 @@ nav {
   width: 100%;
 }
 
+.options-wrapper {
+  background-color: #f25b43;
+}
+
 .btn-top-margin {
   margin-top: 30px;
 }
@@ -126,6 +130,20 @@ nav {
 .btn-hong-kong:hover {
   border: 12px solid #a61f0b;
   outline: none;
+}
+
+.h3-style {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.city-data {
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  padding-bottom: 25px;
 }
 
 .options {
