@@ -97,6 +97,7 @@ nav {
 .btn-locations:focus {
   -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  outline: none;
 }
 .btn-shanghai {
   background: url("images/shanghai.jpg") no-repeat center;
@@ -155,7 +156,6 @@ nav {
 }
 
 .options-btn {
-  margin: auto;
   height: 60px;
   width: 190px;
   background: #fff3db;
@@ -167,16 +167,20 @@ nav {
   border-radius: 5px;
 }
 
+.options-btn:hover {
+  background-color: #542527;
+  color: white;
+}
+
 .margin-btn-top-bottom {
   padding: 40px 0;
 }
 
-
 .options-btn:focus {
   outline: none;
-  background: #fff3db;
-  color: black;
-  border: 2px solid #a61f0b;
+  background: #542527;
+  color: white;
+  border: 2px solid #542527;
 }
 
 #chose-beijing .options-btn {
