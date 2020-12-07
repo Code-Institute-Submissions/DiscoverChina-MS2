@@ -20,6 +20,16 @@ function changeImg(){
 
 window.onload = changeImg;
 
+// More info China btn
+function factsChina() {
+  var factsChina = document.getElementById("factsChinaHidden");
+  if (factsChina.style.display === "none") {
+    factsChina.style.display = "block";
+  } else {
+    factsChina.style.display = "none";
+  }
+}
+
 // Chosen betwween shanghai beijing hong-kong
 
 function chooseCategorie(chosen) {
