@@ -24,13 +24,12 @@ function newCountrySelection(event) {
 //   console.log("Error:", err);
 // });
 
-fetch("https://restcountries.eu/rest/v2/name/china")
+fetch("")
 .then(res => res.json())
-.then(data => initialize(data.filter(item => item.name === 'China')))
+.then(data => initialize(data))
 .catch(err => console.log("Error:", err));
 
 function initialize(countriesData) {
-  console.log(countriesData)
   countries = countriesData;
   let options = "";
   // for(let i=0; i<countries.length; i++) {
@@ -60,5 +59,5 @@ function displayCountryInfo(countryByAlpha3Code) {
   document.getElementById("dialing-code").innerHTML = `+${countryData.callingCodes[0]}`;
   document.getElementById("population").innerHTML = countryData.population.toLocaleString("en-US");
   document.getElementById("currencies").innerHTML = countryData.currencies.filter(c => c.name).map(c => `${c.name} (${c.code})`).join(", ");
-  document.getElementById("region").innerHTML = countryData.region; 
+  document.getElementById("region").innerHTML = countryData.region;
 }
