@@ -1,76 +1,28 @@
-// Initialize and add the map
-function initMap() {
-    const china = { lat: 35.8593, lng: 104.1361 };
-  
-    const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 3,
-      center: china,
-    });
+let locations = [
+    ["Shanghai <h1>test</h1>", 31.224361, 121.469170],
+    ["Beijing", 39.916668, 116.383331],
+    ["Hong Kong", 22.302711, 114.177216],
+    ["Oriental Tower", 31.2397, 121.4998]
+];
 
-    const chinaFlag =
-    "https://img.icons8.com/color/48/000000/china-circular.png";
+let map = L.map('map').setView([35.8617, 104.1954], 4);
+mapLink =
+    '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+L.tileLayer(
+    'http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '&copy; ' + mapLink + ' Contributors',
+    maxZoom: 18,
+}).addTo(map);
 
-    const tourist =
-    "https://img.icons8.com/cotton/100/000000/tourist-backpack--v2.png";
-
-  var markers = [
-    {
-      coords: { lat: 31.224361, lng: 121.469170 },
-      content:
-        "<h2>Shanghai</h2>",
-      iconImage: chinaFlag,
-    },
-    {
-      coords: { lat: 39.916668, lng: 116.383331 },
-      content:
-        "<h2>Beijing</h2>",
-      iconImage: chinaFlag,
-    },
-    {
-      coords: { lat:  22.302711, lng: 114.177216 },
-      content:
-        "<h2>Hong Kong</h2>",
-      iconImage: chinaFlag,
-    }
-  ];
-
-  for (var i = 0; i < markers.length; i++) {
-    // Add marker
-    addMarker(markers[i]);
-  }
-
-  function addMarker(props) {
-    let marker = new google.maps.Marker({
-      position: props.coords,
-      map: map,
-    });
-
-    if (props.iconImage) {
-      marker.setIcon(props.iconImage);
-    }
-
-    if (props.content) {
-      var infoWindow = new google.maps.InfoWindow({
-        content: props.content,
-      });
-    }
-
-    marker.addListener("click", function () {
-      map.setZoom(5);
-      infoWindow.open(map, marker);
-    });
-
-    map.addListener("click", function () {
-      if (infoWindow) infoWindow.close();
-    });
-  }
-
-  $(".options-btn").click(function () {
-    map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
-    map.setZoom(13);
-  });
-
-  const locations = [
-    ["orientalPearlTower", 39.31361, 3.121398]
-  ];
+for (let i = 0; i < locations.length; i++) {
+    marker = new L.marker([locations[i][1], locations[i][2]])
+        .bindPopup(locations[i][0])
+        .addTo(map);
 }
+
+$(".options-btn").click(function () {
+    thisLat = this.dataset.coords.split(",")[0];
+    thisLng = this.dataset.coords.split(",")[1];
+    thisZoom = parseInt(this.dataset.zoom);
+    map.flyTo([thisLat, thisLng], thisZoom);
+});
