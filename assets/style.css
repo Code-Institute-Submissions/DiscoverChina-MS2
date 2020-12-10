@@ -178,8 +178,8 @@ nav {
 }
 
 .options-btn, .choosePlaceOptionBtn {
-  height: 60px;
-  width: 190px;
+  height: 80px;
+  width: 220px;
   background: #fff3db;
   color: black;
   font-family: "Lato", sans-serif;
@@ -243,7 +243,7 @@ nav {
 }
 
 .info-text-wrapper {
-  padding-top: 12px;
+  padding-top: 16px;
 }
 
 .info-img {
@@ -254,14 +254,24 @@ nav {
 .info-h3 {
   color: #eaeaea;
   font-family: 'Stylish', 'Lato', sans-serif;
-  font-size: 45px;
+  font-size: 52px;
   padding-bottom: 20px;
 }
 
 .info-text {
   color: #eaeaea;
   font-family: 'Lato', sans-serif;
+  font-size: 24px;
+}
+
+.info-link {
+  color: #fff3db;
   font-size: 20px;
+  font-weight: 600;
+}
+
+.info-link:hover {
+  color: #a61f0b
 }
 
 .info-address {
