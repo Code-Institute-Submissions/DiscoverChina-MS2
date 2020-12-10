@@ -177,7 +177,7 @@ nav {
   display: none;
 }
 
-.options-btn {
+.options-btn, .choosePlaceOptionBtn {
   height: 60px;
   width: 190px;
   background: #fff3db;
@@ -189,7 +189,7 @@ nav {
   border-radius: 5px;
 }
 
-.options-btn:hover {
+.options-btn:hover, .choosePlaceOptionBtn:hover {
   background-color: #542527;
   color: white;
 }
@@ -279,11 +279,24 @@ nav {
 /* MODALLLLS */
 /* Image Modals */
 /* Style the Image Used to Trigger the Modal */
+.main-img {
+  width: 31%;
+}
+
+.smaller-img-wrapper {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.smaller-img {
+  width: 31%;
+  height: 100%;
+}
+
 #myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9 {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 31%;
 }
 
 #myImg:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover, #myImg7:hover, #myImg8:hover, #myImg9:hover {
