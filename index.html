@@ -106,19 +106,19 @@
       <div id="shanghai-tourist-locations" class="row options-display-style">
         <div class="col-12 text-center">
           <button
-            class="test"
+            class="choosePlaceOptionBtn"
             onclick="choosePlace('touristDestinations-shanghai')"
           >
             Attractions
           </button>
           <button
-          class="test"
+          class="choosePlaceOptionBtn"
           onclick="choosePlace('restaurants-shanghai')"
         >
         restaurants
         </button>
         <button
-        class="test"
+        class="choosePlaceOptionBtn"
         onclick="choosePlace('parks-shanghai')"
       >
         Parks
@@ -141,19 +141,19 @@
       <div id="beijing-tourist-locations" class="row options-display-style">
         <div class="col-12 text-center">
           <button
-            class="test"
+            class="choosePlaceOptionBtn"
             onclick="choosePlace('touristDestinations-beijing')"
           >
             Attractions
           </button>
           <button
-          class="test"
+          class="choosePlaceOptionBtn"
           onclick="choosePlace('restaurants-beijing')"
         >
         restaurants
         </button>
         <button
-        class="test"
+        class="choosePlaceOptionBtn"
         onclick="choosePlace('parks-beijing')"
       >
         Parks
@@ -176,19 +176,19 @@
       <div id="beijing-tourist-locations" class="row options-display-style">
         <div class="col-12 text-center">
           <button
-            class="test"
+            class="choosePlaceOptionBtn"
             onclick="choosePlace('touristDestinations-hongkong')"
           >
             Attractions
           </button>
           <button
-          class="test"
+          class="choosePlaceOptionBtn"
           onclick="choosePlace('restaurants-hongkong')"
         >
         restaurants
         </button>
         <button
-        class="test"
+        class="choosePlaceOptionBtn"
         onclick="choosePlace('parks-hongkong')"
       >
         Parks
@@ -533,21 +533,20 @@
     <h2>Select A Recommended Location Above </h2>
   </div>
 </div>
+ <!-- The Modal -->
+ <div id="myModal" class="modal">
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+  </div>
 <!--Shanghai Info-->
 <!--Shanghai Attractions-->
 <div id="orientalPearlTower" class="info info-shanghai">
   <div class="row text-center">
-    <!-- Trigger the Modal -->
-    <img class="col-12 col-md-6 info-img" id="myImg" src="assets/images/orientalPearlTower1.jpg" alt="Oriental Pearl Tower Shanghai">
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-    <!-- The Close Button -->
-    <span class="close">&times;</span>
-    <!-- Modal Content (The Image) -->
-    <img class="modal-content" id="img01">
-    <!-- Modal Caption (Image Text) -->
-    <div id="caption"></div>
-    </div>
+    <img class="col-12 col-md-6 info-img main-img" id="myImg" src="assets/images/orientalPearlTower1.jpg" alt="Oriental Pearl Tower Shanghai">
   <div class="col-12 col-md-6 info-text-wrapper text-center">
     <div class="col-12"><h3 class="info-h3">Oriental Pearl Tower</h3></div>
       <div class="info-text col-12">
@@ -556,9 +555,18 @@
           The Bund, makes it a distinct landmark in the area. Its principal designers were Jiang Huan Chen, Lin Benlin, and Zhang Xiulin.
           <a href="https://en.wikipedia.org/wiki/Oriental_Pearl_Tower" target="_blank">Wiki</a>
         </p>
-        <h5 class="info-address"> 1 Century Ave, Lu Jia Zui, Pudong, Shanghai, China</h5>
       </div>
     </div>
+  </div>
+  <div class="row text-center smaller-img-wrapper">
+    <div class="col-6">
+    <img class="col-12 col-md-4 info-img smaller-img" id="myImg2" src="assets/images/orientalPearlTower1.jpg" alt="Oriental Pearl Tower Shanghai">
+    <img class="col-12 col-md-4 info-img smaller-img" id="myImg3" src="assets/images/orientalPearlTower1.jpg" alt="Oriental Pearl Tower Shanghai">
+    <img class="col-12 col-md-4 info-img smaller-img" id="myImg4" src="assets/images/orientalPearlTower1.jpg" alt="Oriental Pearl Tower Shanghai">
+  </div>
+  <div class="col-6">
+    <h5 class="info-address"> 1 Century Ave, Lu Jia Zui, Pudong, Shanghai, China</h5>
+  </div>
   </div>
   </div>
 <div id="nanjingRoadMarket" class="info info-shanghai">
