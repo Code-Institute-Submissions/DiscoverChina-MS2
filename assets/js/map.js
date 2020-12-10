@@ -1,8 +1,8 @@
 let locations = [
-    ["Shanghai <h1>test</h1>", 31.224361, 121.469170],
+    ["Shanghai", 31.224361, 121.469170],
     ["Beijing", 39.916668, 116.383331],
     ["Hong Kong", 22.302711, 114.177216],
-    ["Oriental Tower", 31.2397, 121.4998]
+    ["<h3>Oriental Pearl Tower</h3> <p>1 Century Ave, Lu Jia Zui, Pudong, Shanghai, China</P>", 31.2397, 121.4998]
 ];
 
 let map = L.map('map').setView([35.8617, 104.1954], 4);
