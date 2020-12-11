@@ -286,6 +286,15 @@ nav {
   height: 500px;
 }
 
+/* Info Window Styling */
+.info-window-styling {
+  font-size: 25px;
+}
+
+.info-window-img {
+  width: 250px;
+}
+
 /* MODALLLLS */
 /* Image Modals */
 /* Style the Image Used to Trigger the Modal */
