@@ -10,35 +10,34 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg">
-        <h1 id="website-title">Discover China</h1>
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link nav-link-styling" href="#about">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link-styling" href="#locations">Locations</a>
-            </li> 
-            <li class="nav-item">
-                <a class="nav-link nav-link-styling" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <!--Nav Bar-->  
+<nav class="navbar navbar-expand-lg">
+  <h1 id="website-title">Discover China</h1>
+  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link nav-link-styling" href="#about">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-styling" href="#locations">Locations</a>
+      </li> 
+      <li class="nav-item">
+          <a class="nav-link nav-link-styling" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <!--Hero Image/Slide-->
-      <section>
-        <img id="hero-image" name="slide">
-      </section>
+<section>
+  <img id="hero-image" name="slide">
+</section>
 <!--Outside Background Image-->
-      <section id="outside-background-image">
+<section id="outside-background-image">
 <!--Inside Background Colour-->
-        <div id="inside-background-colour">
+<div id="inside-background-colour">
 <!--About Section---->
 <div id="about" class="container text-center">
   <div class="row">
@@ -48,50 +47,49 @@
       <div class="col-12 about-text-styling">China is a country full of experiences and 5,000 years of culture, it boasts some of the greatest food cuisines from the sweet Shanghai cuisine to the Sichuan spiciness. China has a wide range of geographical features that you can traverse from Tianshan Mountain Range to the north China plain. It boasts some of the most spectacular and advanced citys to small traditional fishing villages. </div>
       <div class="col-12"><button onclick="factsChina()" class="facts-about-china-btn">Facts About China</button></div>
   </div>
-    <div id="factsChinaHidden">
-      <div class="row">
-        <div class="col-12"><h3 class="about-h2-styling">Facts About China</h3></div>
+  <div id="factsChinaHidden">
+    <div class="row">
+      <div class="col-12"><h3 class="about-h2-styling">Facts About China</h3></div>
+    </div>
+    <div class="row">
+      <div class="col-6"><img src="" alt=""></div>
+      <div id="countries" class="col-6">
+        <div><p>Capital:<span id="capital"></span></p></div>
+        <div><p>dialing Code:<span id="dialing-code"></span></p></div>
+        <div><p>Population:<span id="population"></span></p></div>
+        <div><p>Currencies:<span id="currencies"></span></p></div>
+        <div><p>Region:<span id="region"></span></p></div>
       </div>
-      <div class="row">
-        <div class="col-6"><img src="" alt=""></div>
-        <div id="countries" class="col-6">
-          <div><p>Capital:<span id="capital"></span></p></div>
-          <div><p>dialing Code:<span id="dialing-code"></span></p></div>
-          <div><p>Population:<span id="population"></span></p></div>
-          <div><p>Currencies:<span id="currencies"></span></p></div>
-          <div><p>Region:<span id="region"></span></p></div>
-        </div>
-      </div>
-    </div>
-</div>
-<!--About Section End-->
-<!--Recommended Locations Three Buttons-->
-<section id="locations" id="recommended-locations">
-<div class="container-fluid container-btns">
-  <div class="row text-center">
-    <div class="col-12 col-md-4 locations shanghai btn-top-margin">
-      <button
-        class="btn-locations btn-shanghai"
-        onclick="chooseCategorie('chose-shanghai')"
-      ></button>
-      <h3>Shanghai</h3>
-    </div>
-    <div class="col-12 col-md-4 locations beijing btn-top-margin">
-      <button
-        class="btn-locations btn-beijing"
-        onclick="chooseCategorie('chose-beijing')"
-      ></button>
-      <h3>Beijing</h3>
-    </div>
-    <div class="col-12 col-md-4 locations hong-kong btn-top-margin">
-      <button
-        class="btn-locations btn-hong-kong"
-        onclick="chooseCategorie('chose-hong-kong')"
-      ></button>
-      <h3>Hong Kong</h3>
     </div>
   </div>
-  </div>  
+</div>
+<!--Recommended Locations Three Buttons-->
+<section id="locations" id="recommended-locations">
+  <div class="container-fluid container-btns">
+    <div class="row text-center">
+      <div class="col-12 col-md-4 locations shanghai btn-top-margin">
+        <button
+          class="btn-locations btn-shanghai"
+          onclick="chooseCategorie('chose-shanghai')"
+          ></button>
+        <h3>Shanghai</h3>
+      </div>
+      <div class="col-12 col-md-4 locations beijing btn-top-margin">
+        <button
+          class="btn-locations btn-beijing"
+          onclick="chooseCategorie('chose-beijing')"
+        ></button>
+        <h3>Beijing</h3>
+      </div>
+      <div class="col-12 col-md-4 locations hong-kong btn-top-margin">
+        <button
+          class="btn-locations btn-hong-kong"
+          onclick="chooseCategorie('chose-hong-kong')"
+        ></button>
+        <h3>Hong Kong</h3>
+      </div>
+      </div>
+    </div>  
   <!--Data and Options Shanghai-->
   <div class="container-fluid options-wrapper text-center margin-btn-top-bottom">
     <div id="chose-shanghai" class="options">
@@ -109,26 +107,23 @@
         <div class="col-12 text-center">
           <button
             class="choosePlaceOptionBtn"
-            onclick="choosePlace('touristDestinations-shanghai')"
-          >
+            onclick="choosePlace('touristDestinations-shanghai')">
             Attractions
           </button>
           <button
-          class="choosePlaceOptionBtn"
-          onclick="choosePlace('restaurants-shanghai')"
-        >
-        restaurants
-        </button>
-        <button
-        class="choosePlaceOptionBtn"
-        onclick="choosePlace('parks-shanghai')"
-      >
-        Parks
-      </button>
+            class="choosePlaceOptionBtn"
+            onclick="choosePlace('restaurants-shanghai')">
+            restaurants
+          </button>
+          <button
+            class="choosePlaceOptionBtn"
+            onclick="choosePlace('parks-shanghai')">
+            Parks
+          </button>
         </div>
       </div>
     </div>
-    <!--Data and Options Beijing-->
+<!--Data and Options Beijing-->
     <div id="chose-beijing" class="options">
       <div class="row">
         <h3 class="col-12 h3-style">
@@ -144,26 +139,23 @@
         <div class="col-12 text-center">
           <button
             class="choosePlaceOptionBtn"
-            onclick="choosePlace('touristDestinations-beijing')"
-          >
+            onclick="choosePlace('touristDestinations-beijing')">
             Attractions
           </button>
           <button
-          class="choosePlaceOptionBtn"
-          onclick="choosePlace('restaurants-beijing')"
-        >
-        restaurants
-        </button>
-        <button
-        class="choosePlaceOptionBtn"
-        onclick="choosePlace('parks-beijing')"
-      >
-        Parks
-      </button>
+            class="choosePlaceOptionBtn"
+            onclick="choosePlace('restaurants-beijing')">
+            restaurants
+          </button>
+          <button
+            class="choosePlaceOptionBtn"
+            onclick="choosePlace('parks-beijing')">
+            Parks
+          </button>
         </div>
       </div>
     </div>
-    <!--Data and Options HongKong-->
+<!--Data and Options HongKong-->
     <div id="chose-hong-kong" class="options">
       <div class="row">
         <h3 class="col-12 h3-style">
@@ -179,350 +171,313 @@
         <div class="col-12 text-center">
           <button
             class="choosePlaceOptionBtn"
-            onclick="choosePlace('touristDestinations-hongkong')"
-          >
+            onclick="choosePlace('touristDestinations-hongkong')">
             Attractions
           </button>
           <button
-          class="choosePlaceOptionBtn"
-          onclick="choosePlace('restaurants-hongkong')"
-        >
-        restaurants
-        </button>
-        <button
-        class="choosePlaceOptionBtn"
-        onclick="choosePlace('parks-hongkong')"
-      >
-        Parks
-      </button>
+            class="choosePlaceOptionBtn"
+            onclick="choosePlace('restaurants-hongkong')">
+            restaurants
+          </button>
+          <button
+            class="choosePlaceOptionBtn"
+            onclick="choosePlace('parks-hongkong')">
+            Parks
+          </button>
         </div>
       </div>
     </div>
-</div>
+  </div>
 <!--Attractions Shanghai-->
 <div class="container-fluid options-wrapper text-center margin-btn-top-bottom">
   <div id="touristDestinations-shanghai" class="secondOptions">
     <div class="row options-display-style">
-        <span class="col-3">
-            <button class="options-btn" onclick="choosePlace('orientalPearlTower')"  data-coords="31.2397,121.4998" data-zoom="15">
-                Oriental Pearl Tower
-            </button>
-        </span>
-        <span class="col-3">
+      <span class="col-3">
+        <button class="options-btn" onclick="choosePlace('orientalPearlTower')"  data-coords="31.2397,121.4998" data-zoom="15">
+            Oriental Pearl Tower
+        </button>
+      </span>
+      <span class="col-3">
         <button class="options-btn" onclick="choosePlace('nanjingRoadMarket')"   data-coords="31.2342,121.4713" data-zoom="15">
             Nanjing Road Market
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('theShanghaiMuseum')"   data-coords="31.2283,121.4755" data-zoom="15"
-        >
-        The Shanghai Museum
+          onclick="choosePlace('theShanghaiMuseum')"   data-coords="31.2283,121.4755" data-zoom="15">
+              The Shanghai Museum
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('jadeBuddhaTemple')"   data-coords="31.2413,121.4451" data-zoom="15"
-        >
+          onclick="choosePlace('jadeBuddhaTemple')"   data-coords="31.2413,121.4451" data-zoom="15">
           Jade Buddha Temple
         </button>
-        </span>
+      </span>
     </div>
   </div>
 <!--Attractions Beijing-->
   <div id="touristDestinations-beijing" class="secondOptions">
     <div class="row options-display-style">
-        <span class="col-3">
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('templeOfHeaven')"   data-coords="39.8822,116.4066" data-zoom="15"
-        >
+          onclick="choosePlace('templeOfHeaven')"   data-coords="39.8822,116.4066" data-zoom="15">
           Temple Of Heaven
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('theImerialPalaceAndTheForbiddenCity')"  data-coords="39.9169,116.3907" data-zoom="15"
-        >
-        The Imperial Palace and the Forbidden City
+          onclick="choosePlace('theImerialPalaceAndTheForbiddenCity')"  data-coords="39.9169,116.3907" data-zoom="15">
+          The Imperial Palace and the Forbidden City
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('theGreatWallOfChina')"  data-coords="40.4319,116.5704" data-zoom="15"
-        >
-        The Great Wall of China
+          onclick="choosePlace('theGreatWallOfChina')"  data-coords="40.4319,116.5704" data-zoom="15">
+          The Great Wall of China
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('beijingCapitalMuseum')"  data-coords="39.9064,116.3419" data-zoom="15"
-        >
-        Beijing Capital Museum
+          onclick="choosePlace('beijingCapitalMuseum')"  data-coords="39.9064,116.3419" data-zoom="15">
+          Beijing Capital Museum
         </button>
-        </span>
+      </span>
     </div>
   </div>
 <!--Attractions HongKong-->
   <div id="touristDestinations-hongkong" class="secondOptions">
     <div class="row options-display-style">
-        <span class="col-3">
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('victoriaPeak')"  data-coords="22.2759,114.1455" data-zoom="15"
-        >
+          onclick="choosePlace('victoriaPeak')"  data-coords="22.2759,114.1455" data-zoom="15">
           Victoria Peak
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
-        class="options-btn"
-        onclick="choosePlace('starFerry')"  data-coords="22.2857,114.1567" data-zoom="15"
-        >
+          class="options-btn"
+          onclick="choosePlace('starFerry')"  data-coords="22.2857,114.1567" data-zoom="15">
           Star Ferry
         </button>
-        </span>
-        <span class="col-3">
-        <button
-        class="options-btn"
-        onclick="choosePlace('bigBuddha')"  data-coords="22.2540,113.9050" data-zoom="15"
-        >
-        Big Buddha (Tian Tan Buddha Statue)
-        </button>
-        </span>
-        <span class="col-3">
-        <button
-        class="options-btn"
-        onclick="choosePlace('wongTaiSinTemple')"  data-coords="22.3427,114.1933" data-zoom="15"
-      >
-      Wong Tai Sin Temple
-      </button>
       </span>
+      <span class="col-3">
+        <button
+          class="options-btn"
+          onclick="choosePlace('bigBuddha')"  data-coords="22.2540,113.9050" data-zoom="15">
+          Big Buddha (Tian Tan Buddha Statue)
+        </button>
+      </span>
+      <span class="col-3">
+        <button
+          class="options-btn"
+          onclick="choosePlace('wongTaiSinTemple')"  data-coords="22.3427,114.1933" data-zoom="15">
+          Wong Tai Sin Temple
+        </button>
+      </span>
+    </div>
   </div>
-</div>
 <!--Restaurants Shanghai-->
   <div id="restaurants-shanghai" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('hakkasan')"  data-coords="31.23863,121.48971" data-zoom="15"
-        >
-        Hakkasan
+          onclick="choosePlace('hakkasan')"  data-coords="31.23863,121.48971" data-zoom="15">
+          Hakkasan
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('hiya')"  data-coords="31.1422,121.2853" data-zoom="15"
-        >
-        Hiya
+          onclick="choosePlace('hiya')"  data-coords="31.1422,121.2853" data-zoom="15">
+          Hiya
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('mercato')"  data-coords="31.1200,121.2354" data-zoom="15"
-        >
-        Mercato
+          onclick="choosePlace('mercato')"  data-coords="31.1200,121.2354" data-zoom="15">
+          Mercato
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('mrAndMrsBund')"  data-coords="31.1418,121.2922" data-zoom="15"
-        >
-        Mr and Mrs Bund
+          onclick="choosePlace('mrAndMrsBund')"  data-coords="31.1418,121.2922" data-zoom="15">
+          Mr and Mrs Bund
         </button>
-        </span>
+      </span>
     </div>
   </div>
 <!--Restaurants Beijing-->
   <div id="restaurants-beijing" class="secondOptions">
     <div class="row options-display-style">
-        <span class="col-3">
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('jubaoyuanHotPotRestaurant')"  data-coords="39.8869,116.3632" data-zoom="15"
-        >
-        Jubaoyuan Hot Pot Restaurant
+          onclick="choosePlace('jubaoyuanHotPotRestaurant')"  data-coords="39.8869,116.3632" data-zoom="15">
+          Jubaoyuan Hot Pot Restaurant
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('qingFengSteamedDumplingShop')"  data-coords="39.5527,116.2320" data-zoom="15"
-        >
-        Qing-Feng Steamed Dumpling Shop
+          onclick="choosePlace('qingFengSteamedDumplingShop')"  data-coords="39.5527,116.2320" data-zoom="15">
+          Qing-Feng Steamed Dumpling Shop
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('haiwanju')"  data-coords="39.87126,116.47508" data-zoom="15"
-        >
-        Haiwanju
+          onclick="choosePlace('haiwanju')"  data-coords="39.87126,116.47508" data-zoom="15">
+          Haiwanju
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('yuebinRestaurant')"  data-coords="39.92401,116.40750" data-zoom="15"
-        >
-        Yuebin Restaurant
+          onclick="choosePlace('yuebinRestaurant')"  data-coords="39.92401,116.40750" data-zoom="15">
+          Yuebin Restaurant
         </button>
-        </span>
+      </span>
     </div>
   </div>
 <!--Restaurants HongKong-->
   <div id="restaurants-hongkong" class="secondOptions">
     <div class="row options-display-style">
-        <span class="col-3">
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('aulis')"  data-coords="22.2815,114.1824" data-zoom="15"
-        >
-        Aulis
+          onclick="choosePlace('aulis')"  data-coords="22.2815,114.1824" data-zoom="15">
+          Aulis
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
-        class="options-btn"
-        onclick="choosePlace('chaat')"  data-coords="22.2949,114.1755" data-zoom="15"
-        >
-        Chaat
+          class="options-btn"
+          onclick="choosePlace('chaat')"  data-coords="22.2949,114.1755" data-zoom="15">
+          Chaat
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
-        class="options-btn"
-        onclick="choosePlace('arbor')"  data-coords="22.28322,114.15535" data-zoom="15"
-        >
-        Arbor
+          class="options-btn"
+          onclick="choosePlace('arbor')"  data-coords="22.28322,114.15535" data-zoom="15">
+          Arbor
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
-        class="options-btn"
-        onclick="choosePlace('theChairman')"  data-coords="22.284580,114.152672" data-zoom="15"
-        >
-        The Chairman
+          class="options-btn"
+          onclick="choosePlace('theChairman')"  data-coords="22.284580,114.152672" data-zoom="15">
+          The Chairman
         </button>
-        </span>
+      </span>
     </div>
   </div>
 <!--Parks Shanghai-->
   <div id="parks-shanghai" class="secondOptions">
     <div class="row options-display-style text-center">
-        <span class="col-3">
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('yuGardenShanghai')"  data-coords="31.2272,121.4921" data-zoom="15"
-        >
-        Yu Garden Shanghai
+          onclick="choosePlace('yuGardenShanghai')"  data-coords="31.2272,121.4921" data-zoom="15">
+          Yu Garden Shanghai
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('theBundPromenade')"  data-coords="31.2366,121.4856" data-zoom="15"
-        >
-        The Bund Promenade
+          onclick="choosePlace('theBundPromenade')"  data-coords="31.2366,121.4856" data-zoom="15">
+          The Bund Promenade
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('thePeoplesSquare')"  data-coords="31.2297,121.4762" data-zoom="15"
-        >
-        The Peoples Square
+          onclick="choosePlace('thePeoplesSquare')"  data-coords="31.2297,121.4762" data-zoom="15">
+          The Peoples Square
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
-        class="options-btn"
-        onclick="choosePlace('longhuaTempleAndPagoda')"  data-coords="31.1738,121.4519" data-zoom="15"
-      >
-      Longhua Temple and Pagoda
-      </button>
+          class="options-btn"
+          onclick="choosePlace('longhuaTempleAndPagoda')"  data-coords="31.1738,121.4519" data-zoom="15">
+          Longhua Temple and Pagoda
+        </button>
       </span>
     </div>
   </div>
 <!--Parks Beijing-->
   <div id="parks-beijing" class="secondOptions">
     <div class="row options-display-style">
-        <span class="col-3">
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('beihaiPark')"  data-coords="39.9254,116.3893" data-zoom="15"
-        >
-        Beihai Park
+          onclick="choosePlace('beihaiPark')"  data-coords="39.9254,116.3893" data-zoom="15">
+          Beihai Park
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
-        class="options-btn"
-        onclick="choosePlace('tiananmenSquare')"  data-coords="39.9055,116.3976" data-zoom="15"
-        >
-        Tiananmen Square
+          class="options-btn"
+          onclick="choosePlace('tiananmenSquare')"  data-coords="39.9055,116.3976" data-zoom="15">
+          Tiananmen Square
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
-        class="options-btn"
-        onclick="choosePlace('coalHillPark')"  data-coords="39.5525,116.2326" data-zoom="15"
-        >
-        Coal Hill Park (Jingshan)
+          class="options-btn"
+          onclick="choosePlace('coalHillPark')"  data-coords="39.5525,116.2326" data-zoom="15">
+          Coal Hill Park (Jingshan)
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
-        class="options-btn"
-        onclick="choosePlace('theOldSummerPalace')"  data-coords="40.0081,116.2982" data-zoom="15"
-        >
-        The Old Summer Palace
-      </button>
-    </span>
+          class="options-btn"
+          onclick="choosePlace('theOldSummerPalace')"  data-coords="40.0081,116.2982" data-zoom="15">
+          The Old Summer Palace
+        </button>
+      </span>
+    </div>
   </div>
-</div>
 <!--Parks HongKong-->
   <div id="parks-hongkong" class="secondOptions">               
     <div class="row options-display-style">
-        <span class="col-3">
+      <span class="col-3">
         <button
           class="options-btn"
-          onclick="choosePlace('oceanPark')"  data-coords="22.2467,114.1757" data-zoom="15"
-        >
-        Ocean Park
+          onclick="choosePlace('oceanPark')"  data-coords="22.2467,114.1757" data-zoom="15">
+          Ocean Park
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button 
-        class="options-btn"
-        onclick="choosePlace('hongKongPark')"  data-coords="22.2765,114.1596" data-zoom="15"
-        >
-        Hong Kong Park
+          class="options-btn"
+          onclick="choosePlace('hongKongPark')"  data-coords="22.2765,114.1596" data-zoom="15">
+          Hong Kong Park
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
-        class="options-btn"
-        onclick="choosePlace('chiLinNunneryAndNanLianGarden')"  data-coords="22.3404,114.2055" data-zoom="15"
-        >
-        Chi Lin Nunnery and Nan Lian Garden
+          class="options-btn"
+          onclick="choosePlace('chiLinNunneryAndNanLianGarden')"  data-coords="22.3404,114.2055" data-zoom="15">
+          Chi Lin Nunnery and Nan Lian Garden
         </button>
-        </span>
-        <span class="col-3">
+      </span>
+      <span class="col-3">
         <button
-        class="options-btn"
-        onclick="choosePlace('hongKongSkyline')"    data-coords="22.2855,114.1577" data-zoom="15"
-        >
-        Hong Kong Skyline
+          class="options-btn"
+          onclick="choosePlace('hongKongSkyline')"    data-coords="22.2855,114.1577" data-zoom="15">
+          Hong Kong Skyline
         </button>
       </span>
     </div>
@@ -532,18 +487,18 @@
 <div class="container-fluid container-map">
   <div class="row info active-img text-center">
     <div class="info-text col-12">
-    <h2>Select A Recommended Location Above </h2>
+      <h2>Select A Recommended Location Above </h2>
   </div>
 </div>
- <!-- The Modal -->
- <div id="myModal" class="modal">
-  <!-- The Close Button -->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+<!-- The Close Button -->
   <span class="close">&times;</span>
-  <!-- Modal Content (The Image) -->
+<!-- Modal Content (The Image) -->
   <img class="modal-content" id="img01">
-  <!-- Modal Caption (Image Text) -->
+<!-- Modal Caption (Image Text) -->
   <div id="caption"></div>
-  </div>
+</div>
 <!--Shanghai Info-->
 <!--Shanghai Attractions-->
 <div id="orientalPearlTower" class="info info-shanghai">
@@ -1335,11 +1290,11 @@
 <!--Footer-->
 <section>
   <div class="container-fluid footer-container">
-    <div class="row">
+    <div class="row text-center">
       <div class="col-3"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f social-icon"></i></a></div>
       <div class="col-3"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter social-icon"></i></a></div>
       <div class="col-3"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram social-icon"></i></a></div>
-      <div class="col-3">github-link</div>
+      <div class="col-3"><a href="https://github.com/JackTubby" target="_blank"><i class="fab fa-github social-icon"></i></a></div>
     </div>
   </div>
 </section>
