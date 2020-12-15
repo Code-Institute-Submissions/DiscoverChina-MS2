@@ -1,6 +1,6 @@
 # Discover China
 
-This is a website to pursuade and show users why to visit China and to provide recommended tourist locations in China.
+This is a website to provide information to users on three key Chinese cities and locations to visit in those cities. 
 [LiveSite](https://jacktubby.github.io/MS2/)
 
 ## UX 
@@ -58,6 +58,21 @@ This project is targeted at a wide range of users, from distinguished travellers
  - Balsamiq was used to create the wireframes during the early design process.
 
  ## Testing
+### HTML Testing
+Ran all HTML through [W3 Validator](https://validator.w3.org)
+- **Error**
+- **Warnings**
+### CSS Testing 
+Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
+- **Error:** 'Value Error : background-repeat cover is not a background-repeat value : cover' **Fix:** Removed background-repeat: cover;
+### Javascript Testing
+Ran all Javascript through [JSHint](https://jshint.com)
+#### script.js
+- No errors
+#### country.js
+#### map.js
+- **Error** Six undefined variables **Fix**
+- **No Warnings**
 
  ## Deployment
 
