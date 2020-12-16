@@ -68,17 +68,7 @@ function chooseCategorie(chosen) {
   
     document.getElementById(chosen).style.display = "block";
   }
-  
- /* Modal */
 
- var infoImages = document.querySelectorAll(".info-img");
- for ( i = 0; i < infoImages.length; i++) {
-   document.getElementsByClassName("info-img").addEventListener("click", );
- }
- 
- infoImages.onClick = function() {
-     
- }
   
 
 
