@@ -46,7 +46,6 @@ nav {
 
 #outside-background-image {
     background-image: url(images/background-image.jpg);
-    background-repeat: cover;
 }
 
 #inside-background-colour {
@@ -346,6 +345,10 @@ nav {
 }
 
 /* The Modal (background) */
+.small-modal-image-wrapper {
+  height: 140px;
+}
+
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
