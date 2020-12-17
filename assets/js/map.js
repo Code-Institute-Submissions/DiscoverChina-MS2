@@ -42,6 +42,12 @@ let locations = [
     ["<h3 class=info-window-styling>Hong Kong Skyline</h3> <p class=info-window-p>No. 1 Austin Road, West Kowloon</P> <button class=info-window-button onclick=choosePlace('hongKongSkyline')>Find Out More</button>", 22.2855, 114.1577]
 ];
 
+var testIcon = L.icon({
+    iconUrl: 'https://leafletjs.com/examples/custom-icons/leaf-green.png',
+    iconSize: [38,95],
+    iconAnchor: [22,94]
+})
+
 let map = L.map('map').setView([35.8617, 104.1954], 4);
 mapLink =
     '<a href="http://openstreetmap.org">OpenStreetMap</a>';
@@ -52,7 +58,7 @@ L.tileLayer(
 }).addTo(map);
 
 for (let i = 0; i < locations.length; i++) {
-    marker = new L.marker([locations[i][1], locations[i][2]])
+    marker = new L.marker([locations[i][1], locations[i][2]],{icon:testIcon})
         .bindPopup(locations[i][0])
         .addTo(map);
 }
