@@ -56,6 +56,8 @@ This project is targeted at a wide range of users, from distinguished travellers
  - GitHub was used to store the project in a repository.
 - Balsamiq
  - Balsamiq was used to create the wireframes during the early design process.
+- [Tinyjpg.com](https://tinyjpg.com)
+ - To reduce image file sizes
 
  ## Testing
 ### HTML Testing
