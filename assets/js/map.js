@@ -43,28 +43,33 @@ let locations = [
 ];
 
 var cityIcon = L.icon({
-    iconUrl: 'https://leafletjs.com/examples/custom-icons/leaf-red.png',
-    iconSize: [38,95],
-    iconAnchor: [22,94]
+    iconUrl: 'assets/images/cityIcon.png',
+    iconSize: [30,30],
+    iconAnchor: [0,0],
+    popupAnchor: [22,-90]
 });
-
 var attractionsIcon = L.icon({
-    iconUrl: 'https://leafletjs.com/examples/custom-icons/leaf-green.png',
-    iconSize: [38,95],
-    iconAnchor: [22,94]
+    iconUrl: 'assets/images/attractionsIcon.png',
+    iconSize: [30,30],
+    iconAnchor: [0,0],
+    popupAnchor: [22,-90]
 });
 var restaurantsIcon = L.icon({
-    iconUrl: 'https://leafletjs.com/examples/custom-icons/leaf-red.png',
-    iconSize: [38,95],
-    iconAnchor: [22,94]
+    iconUrl: 'assets/images/restaurantsIcon.png',
+    iconSize: [30,30],
+    iconAnchor: [0,0],
+    popupAnchor: [22,-90]
 });
 var parksIcon = L.icon({
-    iconUrl: 'https://leafletjs.com/examples/custom-icons/leaf-orange.png',
-    iconSize: [38,95],
-    iconAnchor: [22,94]
+    iconUrl: 'assets/images/parksIcon.png',
+    iconSize: [30,30],
+    iconAnchor: [0,0],
+    popupAnchor: [22,-90]
 });
 
-let map = L.map('map').setView([35.8617, 104.1954], 4);
+let map = L.map('map', {
+    fullscreenControl: true,
+}).setView([35.8617, 104.1954], 4);
 mapLink =
     '<a href="http://openstreetmap.org">OpenStreetMap</a>';
 L.tileLayer(
