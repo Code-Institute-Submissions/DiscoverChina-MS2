@@ -46,25 +46,25 @@ var cityIcon = L.icon({
     iconUrl: 'assets/images/cityIcon.png',
     iconSize: [30,30],
     iconAnchor: [0,0],
-    popupAnchor: [22,-90]
+    popupAnchor: [14,0]
 });
 var attractionsIcon = L.icon({
     iconUrl: 'assets/images/attractionsIcon.png',
     iconSize: [30,30],
     iconAnchor: [0,0],
-    popupAnchor: [22,-90]
+    popupAnchor: [14,0]
 });
 var restaurantsIcon = L.icon({
     iconUrl: 'assets/images/restaurantsIcon.png',
     iconSize: [30,30],
     iconAnchor: [0,0],
-    popupAnchor: [22,-90]
+    popupAnchor: [14,0]
 });
 var parksIcon = L.icon({
     iconUrl: 'assets/images/parksIcon.png',
     iconSize: [30,30],
     iconAnchor: [0,0],
-    popupAnchor: [22,-90]
+    popupAnchor: [14,0]
 });
 
 let map = L.map('map', {
