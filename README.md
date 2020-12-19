@@ -38,8 +38,13 @@ This project is targeted at a wide range of users, from distinguished travellers
 #### Imagery
 
 ### Wireframes
-
+My wireframe includes a desktop, tablet and mobile version.
 ## Features 
+
+### Existing Features
+
+## Features Left to Implement
+Future features I would like to implement would be a weather api to display the weather around China
 
 ### Languages, Frameworks, Libraries & Programs Used 
 - HTML5
@@ -62,7 +67,7 @@ This project is targeted at a wide range of users, from distinguished travellers
  ## Testing
 ### HTML Testing
 Ran all HTML through [W3 Validator](https://validator.w3.org)
-- **Error**
+- **Error:**
 - **Warnings**
 ### CSS Testing 
 Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
@@ -73,16 +78,25 @@ Ran all Javascript through [JSHint](https://jshint.com)
 - No errors
 #### country.js
 #### map.js
-- **Error** Six undefined variables **Fix**
+- **Error:** Six undefined variables **Fix**
 - **No Warnings**
 
  ## Deployment
+This site was deployed on GitHub Pages, the steps I took to do this was:
+
+- The code was written in VS Code.
+- I pushed the code to my GitHub repository.
+- In the repository settings, I scrolled down to the GitHub Pages.
+- Under 'source', I selected the 'master branch'. 
+- I published the project to GitHub pages, which provided me with a url.
+- The deployed website and development site are the same.
 
  ## Credits
 
  ### Code
  [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap was used to add responsiveness to the website.
  [Pexels](https://www.pexels.com/): Pexels was used to provide images for the website.
- ### Content
+ ### Media
+ * The photos used in the Gallery were obtained from two locations: Google Reviews and https://www.pexels.com/
 
  ### Acknowledgements
