@@ -284,7 +284,7 @@ nav {
 }
 
 .smaller-img-wrapper {
-  margin-top: 16px;
+
   margin-bottom: 20px;
 }
 
@@ -320,6 +320,10 @@ nav {
 
 .info-link:hover {
   color: #a61f0b
+}
+
+.trip-advisor-img {
+  background-color: white;
 }
 
 .info-address {
