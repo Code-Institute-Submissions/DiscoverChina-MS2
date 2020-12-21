@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Stylish&display=swap');
 
-
-#temp-gap {
-    height: 200px;
+/* Code Snippet https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1 */
+html {
+  scroll-behavior: smooth;
 }
 
 /* Navbar */
@@ -281,17 +281,16 @@ nav {
 .main-img {
   width: 100%;
   height: 30em;
+  padding-bottom: 6px;
 }
 
 .smaller-img-wrapper {
-
   margin-bottom: 20px;
 }
 
 .smaller-img {
   width: 100%;
   height: 150px;
-  margin-top: 4px;
 }
 
 /* To fix small info images from moving too far down and display issues on ipad pro */
