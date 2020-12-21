@@ -32,14 +32,18 @@ This project is targeted at a wide range of users, from distinguished travellers
 ### Surface
 
 #### Colours
- Oriental style colours, to match the theme of the website.
- ![image](assets/images/#a61f0b.PNG)
- ![image](assets/images/#f25b43.PNG)
+ I have chosen to use a mix of colours that go with the oriental theme of my website. The colours that have been chosen are #fff3db, #a61f0b, #542527, #f25b43, white and black.
+ - #fff3db, 
+ - #a61f0b,
+ - #542527,
+ - #f25b43,
+ - white,
+ - black,
 #### Typography
--"Stylish" Used for titles as it goes well with the oriental theme.
--"Lato" Used for most of the text through out website, as it is clean font which is easy on the eye.
+- "Stylish" Used for titles as it goes well with the oriental theme.
+- "Lato" Used for most of the text through out website, as it is clean font which is easy on the eye.
 #### Imagery
-
+Imagery was carefully chosen to best show each tourist option.
 ### Wireframes
 My wireframe includes a desktop, tablet and mobile version.
 ## Features 
@@ -105,3 +109,6 @@ This site was deployed on GitHub Pages, the steps I took to do this was:
  * The photos used in the Gallery were obtained from two locations: Google Reviews and https://www.pexels.com/
 
  ### Acknowledgements
+ - Tim Nelson for his assistance with LeafletJS.
+ - Slack Community and CI staff that helped with questions and assistance throughout development.
+ - Mentor - My mentor helped me decide where to focus my time and make improvements, which was very beneficial for my site development.
