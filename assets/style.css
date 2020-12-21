@@ -294,6 +294,13 @@ nav {
   margin-top: 4px;
 }
 
+/* To fix small info images from moving too far down and display issues on ipad pro */
+@media (min-width:994px) and (max-width:1746px){
+  .smaller-img {
+    display: none;
+  }
+}
+
 .info-img:hover {
   opacity: 0.7;
   transition: 0.5s;
