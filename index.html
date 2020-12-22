@@ -49,17 +49,19 @@
       <div class="col-12"><button onclick="factsChina()" class="facts-about-china-btn">Facts About China</button></div>
   </div>
   <div id="factsChinaHidden">
-    <div class="row">
+    <div class="row text-center">
       <div class="col-12"><h3 class="about-h2-styling">Facts About China</h3></div>
-    </div>
-    <div class="row">
-      <div class="col-6"><img src="" alt=""></div>
-      <div id="countries" class="col-6">
-        <div><p>Capital:<span id="capital"></span></p></div>
-        <div><p>dialing Code:<span id="dialing-code"></span></p></div>
-        <div><p>Population:<span id="population"></span></p></div>
-        <div><p>Currencies:<span id="currencies"></span></p></div>
-        <div><p>Region:<span id="region"></span></p></div>
+      <div class="col-12 col-lg-6 thumbnail">
+        <a target="_blank" href="assets/images/chinaFlag.png">
+        <img class="info-img" src="assets/images/chinaFlag.png" alt="Image of the chinese flag"></a>
+      </div>
+      <div class="col-12 col-lg-6 info-text-wrapper text-center">
+        <div class="col-12">
+          <div><p class="facts-china">Capital: Beijing<span id="capital"></span></p></div>
+          <div><p class="facts-china">dialing Code: +86<span id="dialing-code"></span></p></div>
+          <div><p class="facts-china">Population: 1.393 billion<span id="population"></span></p></div>
+          <div><p class="facts-china">Currency: Renminbi<span id="currencies"></span></p></div>
+        </div>
       </div>
     </div>
   </div>
@@ -96,13 +98,19 @@
   <div class="container-fluid options-wrapper text-center margin-btn-top-bottom">
     <div id="chose-shanghai" class="options">
       <div class="row">
-        <h3 class="col-12 h3-style">
+        <h3 class="col-12 h3-style-headings">
           Shanghai Data 
         </h3>
       </div>
       <div class="row city-data">
-        <div class="col-12 ">
-          Population: 24.28 million Area Code: 21 Languages: Mandarin, Shanghainese 
+        <div class="col-4">
+          <h3 class="h3-style">Population:</h3> 24.28 million 
+        </div>
+        <div class="col-4">
+          <h3 class="h3-style">Area Code:</h3> 21
+        </div>
+        <div class="col-4">
+          <h3 class="h3-style">Languages:</h3> Mandarin, Shanghainese 
         </div>
       </div>
       <div id="shanghai-tourist-locations" class="row options-display-style">
@@ -339,7 +347,7 @@
       <span class="col-12 col-md-6 col-lg-3">
         <button
           class="options-btn"
-          onclick="choosePlace('qianmenQuanjude')" data-coords="39.87126,116.47508" data-zoom="15">
+          onclick="choosePlace('qianmenQuanjude')" data-coords="39.89653417557819,116.3982514674211" data-zoom="15">
           Qianmen Quanjude
         </button>
       </span>
