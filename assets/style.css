@@ -91,6 +91,14 @@ nav {
   display: none;
 }
 
+.facts-china {
+  font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  color: #a61f0b;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
 /* To Top Button */
 
 #toTopBtn {
@@ -178,8 +186,16 @@ nav {
   outline: none;
 }
 
+.h3-style-headings {
+  color: #fff3db;
+  font-family: 'Stylish', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 .h3-style {
-  color: white;
+  color: #fff3db;
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 32px;
