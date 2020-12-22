@@ -150,20 +150,20 @@ nav {
   outline: none;
 }
 .btn-shanghai {
-  background: url("images/shanghai.jpg") no-repeat center;
+  background: url("images/shanghaiSlideImg.jpg") no-repeat center;
   background-size: cover;
   background-repeat: no-repeat;
   border: 8px solid white;
 }
 
 .btn-beijing {
-  background: url("images/beijing.jpg") no-repeat center;
+  background: url("images/beijingSlideImg.jpg") no-repeat center;
   background-size: cover;
   border: 8px solid white;
 }
 
 .btn-hong-kong {
-  background: url("images/nanjingRoadMarket.jpg") no-repeat center;
+  background: url("images/hongKongSlideImg.jpg") no-repeat center;
   background-size: cover;
   background-repeat: no-repeat;
   border: 8px solid white;
