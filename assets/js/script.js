@@ -3,9 +3,9 @@ var i = 0;
 var images = [];
 var time = 3000;
 
-images[0] = 'assets/images/beijing.jpg';
-images[1] = 'assets/images/beijing-2.jpg';
-images[2] = 'assets/images/shanghai.jpg';
+images[0] = 'assets/images/shanghaiSlideImg.jpg';
+images[1] = 'assets/images/beijingSlideImg.jpg';
+images[2] = 'assets/images/hongKongSlideImg.jpg';
 
 function changeImg(){
     document.slide.src = images[i];
