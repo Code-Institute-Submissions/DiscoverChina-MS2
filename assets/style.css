@@ -1,3 +1,4 @@
+/* Google Fonts 'Stylish' 'Lato' */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Stylish&display=swap');
 
 /* Code Snippet https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1 */
@@ -34,7 +35,6 @@ nav {
 }
 
 /* Hero Image / Slideshow */
-
 #hero-image {
     height: 90vh;
     width: 100vw;
@@ -43,7 +43,6 @@ nav {
 }
 
 /* Background Image */
-
 #outside-background-image {
     background-image: url(images/background-image.jpg);
 }
@@ -55,7 +54,6 @@ nav {
 }
 
 /* About Section */
-
 #about {
   padding-top: 0px;
   padding-bottom: 35px;
@@ -100,7 +98,6 @@ nav {
 }
 
 /* To Top Button */
-
 #toTopBtn {
   display: none; 
   position: fixed; 
@@ -296,7 +293,8 @@ nav {
 
 .main-img {
   width: 100%;
-  height: 30em;
+  height: 38
+  em;
   padding-bottom: 6px;
 }
 
@@ -355,6 +353,7 @@ nav {
   padding-top: 40px;
 }
 
+/* Map */
 #map {
   width: 100%;
   height: 500px;
@@ -389,7 +388,6 @@ nav {
 }
 
 /* Contact Form */
-
 .form-container {
   margin-top: 30px;
   padding-bottom: 30px;
@@ -439,7 +437,6 @@ nav {
 }
 
 /* Footer */
-
 .footer-container {
   padding-top: 10px;
   background-color: #f25b43;

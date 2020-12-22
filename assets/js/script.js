@@ -1,3 +1,4 @@
+// Auto hero image / slideshow
 var i = 0; 
 var images = [];
 var time = 3000;
@@ -30,7 +31,7 @@ function factsChina() {
   }
 }
 
-// To Top Button
+// To Top Button https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 //Get the button:
 mybutton = document.getElementById("toTopBtn");
 
@@ -52,7 +53,6 @@ function topFunction() {
 }
 
 // Chosen between shanghai beijing hong-kong
-
 function chooseCategorie(chosen) {
     const options = document.getElementsByClassName("options");
   
