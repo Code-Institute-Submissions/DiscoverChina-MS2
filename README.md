@@ -79,16 +79,24 @@ Ran all HTML through [W3 Validator](https://validator.w3.org)
 ### CSS Testing 
 Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 - **Error:** 'Value Error : background-repeat cover is not a background-repeat value : cover' **Fix:** Removed background-repeat: cover;
+- **No Other Errors**
 ### Javascript Testing
 Ran all Javascript through [JSHint](https://jshint.com)
 #### script.js
-- No errors
-#### country.js
+- **No errors**
 #### map.js
 - **Error:** Six undefined variables **Fix**
 - **No Warnings**
-### Personal Testing
-- Found an issue with page loading times, after looking for what is casuing the issue I found it was the amount of images, to fix this I reduced the file sizes and added lazy loading to the images.
+### Chrome Lighthouse Testing
+#### Performance 
+- Performace results were good and did not need to be improved.
+#### Best Practices
+#### Accessibility
+- My Shanghai, Beijing and HongKong buttons came up that they did not have an accessible name. To fix this I added aria-labels to them.
+#### SEO
+- Good Results, did not need to be improved due to the specification of this project
+### Manual Testing
+- Found an issue with page loading times, after looking for what is casuing the issue I found it was the amount of images, to fix this I reduced the file sizes and added the lazy loading attribute to the images.
 
  ## Deployment
 This site was deployed on GitHub Pages, the steps I took to do this was:
@@ -107,6 +115,7 @@ This site was deployed on GitHub Pages, the steps I took to do this was:
  [Pexels](https://www.pexels.com/): Pexels was used to provide images for the website.
  ### Media
  * The photos used in the Gallery were obtained from two locations: Google Reviews and https://www.pexels.com/
+ * Trip Advisor and Wikipedia was utilized for information on the info options, and to provide a link to the corresponding option.
 
  ### Acknowledgements
  - Tim Nelson for his assistance with LeafletJS.
