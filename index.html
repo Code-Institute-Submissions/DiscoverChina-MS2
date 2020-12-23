@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
     <link rel="stylesheet" href="assets/style.css">
+<!--Email JS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("user_mIjGgbIVbEpp6XRr0o39S");
+      })();
+</script>
 </head>
 <body>
 <!--Nav Bar-->  
@@ -293,14 +300,14 @@
         </button></a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="theGreatWallOfChina">
+        <a href="#theGreatWallOfChina">
           <button class="options-btn"  onclick="choosePlace('theGreatWallOfChina')" data-coords="40.4319,116.5704" data-zoom="15">
           The Great Wall of China
           </button>
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="beijingCapitalMuseum">
+        <a href="#beijingCapitalMuseum">
           <button class="options-btn" onclick="choosePlace('beijingCapitalMuseum')"  data-coords="39.9064,116.3419" data-zoom="15">
           Beijing Capital Museum
           </button>
@@ -312,32 +319,32 @@
   <div id="touristDestinations-hongkong" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="vicotriaPeak">
+        <a href="#victoriaPeak">
           <button  class="options-btn"  onclick="choosePlace('victoriaPeak')" data-coords="22.2759,114.1455" data-zoom="15">
           Victoria Peak
           </button>
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('starFerry')" data-coords="22.2857,114.1567" data-zoom="15">
+        <a href="#starFerry">
+          <button class="options-btn" onclick="choosePlace('starFerry')" data-coords="22.2857,114.1567" data-zoom="15">
           Star Ferry
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('bigBuddha')" data-coords="22.2540,113.9050" data-zoom="15">
+        <a href="#bigBuddha">
+          <button class="options-btn"  onclick="choosePlace('bigBuddha')" data-coords="22.2540,113.9050" data-zoom="15">
           Big Buddha (Tian Tan Buddha Statue)
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('wongTaiSinTemple')" data-coords="22.3427, 114.1933" data-zoom="15">
+        <a href="#wongTaiSinTemple">
+          <button class="options-btn" onclick="choosePlace('wongTaiSinTemple')" data-coords="22.3427, 114.1933" data-zoom="15">
           Wong Tai Sin Temple
-        </button>
+          </button>
+        </a>
       </span>
     </div>
   </div>
@@ -345,32 +352,32 @@
   <div id="restaurants-shanghai" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('hakkasan')"  data-coords="31.23697201695567, 121.48328658291878" data-zoom="15">
+        <a href="#hakkasan">
+          <button class="options-btn" onclick="choosePlace('hakkasan')" data-coords="31.23697201695567, 121.48328658291878" data-zoom="15">
           Hakkasan
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('hiya')"  data-coords="31.1422,121.2853" data-zoom="15">
+        <a href="#hiya">
+          <button class="options-btn" onclick="choosePlace('hiya')"  data-coords="31.1422,121.2853" data-zoom="15">
           Hiya
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('mercato')"  data-coords="31.1200,121.2354" data-zoom="15">
+        <a href="#mercato">
+          <button class="options-btn" onclick="choosePlace('mercato')"  data-coords="31.1200,121.2354" data-zoom="15">
           Mercato
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('mrAndMrsBund')"  data-coords="31.1418,121.2922" data-zoom="15">
+        <a href="#mrAndMrsBund">
+          <button class="options-btn" onclick="choosePlace('mrAndMrsBund')"  data-coords="31.1418,121.2922" data-zoom="15">
           Mr and Mrs Bund
-        </button>
+          </button>
+        </a>
       </span>
     </div>
   </div>
@@ -378,32 +385,32 @@
   <div id="restaurants-beijing" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('jubaoyuanHotPotRestaurant')" data-coords="39.8869,116.3632" data-zoom="15">
+        <a href="#jubaoyuanHotPotRestaurant">
+          <button class="options-btn" onclick="choosePlace('jubaoyuanHotPotRestaurant')" data-coords="39.8869,116.3632" data-zoom="15">
           Jubaoyuan Hot Pot Restaurant
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('qingFengSteamedDumplingShop')" data-coords="39.5527,116.2320" data-zoom="15">
+        <a href="#qingFengSteamedDumplingShop">
+          <button class="options-btn" onclick="choosePlace('qingFengSteamedDumplingShop')" data-coords="39.5527,116.2320" data-zoom="15">
           Qing-Feng Steamed Dumpling Shop
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('qianmenQuanjude')" data-coords="39.89653417557819,116.3982514674211" data-zoom="15">
+        <a href="#qianmenQuanjude">
+          <button class="options-btn" onclick="choosePlace('qianmenQuanjude')" data-coords="39.89653417557819,116.3982514674211" data-zoom="15">
           Qianmen Quanjude
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('yuebinRestaurant')" data-coords="39.92401,116.40750" data-zoom="15">
+        <a href="#yuebinRestaurant">
+          <button class="options-btn" onclick="choosePlace('yuebinRestaurant')" data-coords="39.92401,116.40750" data-zoom="15">
           Yuebin Restaurant
-        </button>
+          </button>
+        </a>
       </span>
     </div>
   </div>
@@ -411,32 +418,32 @@
   <div id="restaurants-hongkong" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('aulis')"  data-coords="22.2815,114.1824" data-zoom="15">
+        <a href="#aulis">
+          <button class="options-btn" onclick="choosePlace('aulis')"  data-coords="22.2815,114.1824" data-zoom="15">
           Aulis
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('chaat')"  data-coords="22.2949,114.1755" data-zoom="15">
+        <a href="#chaat">
+          <button class="options-btn" onclick="choosePlace('chaat')"  data-coords="22.2949,114.1755" data-zoom="15">
           Chaat
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('arbor')"  data-coords="22.28322,114.15535" data-zoom="15">
+        <a href="#arbor">
+          <button class="options-btn" onclick="choosePlace('arbor')"  data-coords="22.28322,114.15535" data-zoom="15">
           Arbor
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('theChairman')"  data-coords="22.284580,114.152672" data-zoom="15">
+        <a href="#theChairman">
+          <button class="options-btn" onclick="choosePlace('theChairman')"  data-coords="22.284580,114.152672" data-zoom="15">
           The Chairman
-        </button>
+          </button>
+        </a>
       </span>
     </div>
   </div>
@@ -444,32 +451,32 @@
   <div id="parks-shanghai" class="secondOptions">
     <div class="row options-display-style text-center">
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('yuGardenShanghai')"  data-coords="31.2272,121.4921" data-zoom="15">
+        <a href="#yuGardenShanghai">
+          <button class="options-btn" onclick="choosePlace('yuGardenShanghai')"  data-coords="31.2272,121.4921" data-zoom="15">
           Yu Garden Shanghai
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('theBundPromenade')"  data-coords="31.2272,121.4921" data-zoom="15">
+        <a href="#theBundPromenade">
+          <button class="options-btn" onclick="choosePlace('theBundPromenade')"  data-coords="31.2272,121.4921" data-zoom="15">
           The Bund Promenade
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('thePeoplesSquare')"  data-coords="31.2297,121.4762" data-zoom="15">
+        <a href="#thePeoplesSquare">
+          <button class="options-btn" onclick="choosePlace('thePeoplesSquare')"  data-coords="31.2297,121.4762" data-zoom="15">
           The Peoples Square
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('longhuaTempleAndPagoda')"  data-coords="31.1738,121.4519" data-zoom="15">
+        <a href="#longhuaTempleAndPagoda">
+          <button class="options-btn" onclick="choosePlace('longhuaTempleAndPagoda')"  data-coords="31.1738,121.4519" data-zoom="15">
           Longhua Temple and Pagoda
-        </button>
+          </button>
+        </a>
       </span>
     </div>
   </div>
@@ -477,32 +484,32 @@
   <div id="parks-beijing" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('beihaiPark')"  data-coords="39.92401,116.40750" data-zoom="15">
+        <a href="#beihaiPark">
+          <button class="options-btn" onclick="choosePlace('beihaiPark')"  data-coords="39.92401,116.40750" data-zoom="15">
           Beihai Park
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('tiananmenSquare')"  data-coords="39.9254,116.3893" data-zoom="15">
+        <a href="#tiananmenSquare">
+          <button class="options-btn" onclick="choosePlace('tiananmenSquare')"  data-coords="39.9254,116.3893" data-zoom="15">
           Tiananmen Square
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('coalHillPark')"  data-coords="39.5525,116.2326" data-zoom="15">
+        <a href="#coalHillPark">
+          <button class="options-btn" onclick="choosePlace('coalHillPark')"  data-coords="39.5525,116.2326" data-zoom="15">
           Coal Hill Park (Jingshan)
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('theOldSummerPalace')"  data-coords="40.0081,116.2982" data-zoom="15">
+        <a href="#theOldSummerPalace">
+          <button class="options-btn" onclick="choosePlace('theOldSummerPalace')"  data-coords="40.0081,116.2982" data-zoom="15">
           The Old Summer Palace
-        </button>
+          </button>
+        </a>
       </span>
     </div>
   </div>
@@ -510,32 +517,32 @@
   <div id="parks-hongkong" class="secondOptions">               
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('oceanPark')"  data-coords="22.2467,114.1757" data-zoom="15">
+        <a href="#oceanPark">
+          <button class="options-btn" onclick="choosePlace('oceanPark')"  data-coords="22.2467,114.1757" data-zoom="15">
           Ocean Park
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button 
-          class="options-btn"
-          onclick="choosePlace('hongKongPark')"  data-coords="22.2765,114.1596" data-zoom="15">
+        <a href="#hongKongPark">
+          <button  class="options-btn" onclick="choosePlace('hongKongPark')"  data-coords="22.2765,114.1596" data-zoom="15">
           Hong Kong Park
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('chiLinNunneryAndNanLianGarden')"  data-coords="22.3404, 114.2055" data-zoom="15">
+        <a href="#chiLinNunneryAndNanLianGarden">
+          <button class="options-btn" onclick="choosePlace('chiLinNunneryAndNanLianGarden')"  data-coords="22.3404, 114.2055" data-zoom="15">
           Chi Lin Nunnery and Nan Lian Garden
-        </button>
+          </button>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <button
-          class="options-btn"
-          onclick="choosePlace('hongKongSkyline')" data-coords="22.2855,114.1577" data-zoom="15">
+        <a href="#hongKongSkyline">
+          <button class="options-btn" onclick="choosePlace('hongKongSkyline')" data-coords="22.2855,114.1577" data-zoom="15">
           Hong Kong Skyline
-        </button>
+          </button>
+        </a>
       </span>
     </div>
   </div>
@@ -2207,15 +2214,14 @@
   <div class="row">
       <h2 class="col-12 form-h2">Need more information about China? Get In touch!</h2>
   </div>
-  <form id="form-wrapper">
   <div class="row">
-    <div class="col-12"><input class="form-input form-input-styling" aria-label="Name" type="text" id="fname" name="fname" required placeholder="Name"></div>
-    <div class="col-12"><input class="form-input form-input-styling" aria-label="Email" type="email" id="email" name="email" required placeholder="Email"></div>
-    <div class="col-12"><input class="form-input form-input-styling" aria-label="Phone Number" type="tel" id="phone_num" name="phone_num" placeholder="Phone Number"></div>
-    <div class="col-12"><textarea class="form-textArea-styling" id="text-area" aria-label="Text Area" name="textarea" rows="4" cols="50" placeholder="Enter Your Message Here"></textarea></div>
-    <div class="col-12"><input class="form-submit-styling" aria-label="Submit Button" type="submit" value="Submit"></div>
+    <form onsubmit="return sendMail(this);">
+      <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+      <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+      <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+      <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+  </form>
   </div>
-</form>
 </div>
 </section>
 </div>
@@ -2236,5 +2242,15 @@
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
 <script src="assets/js/script.js"></script>
 <script src="assets/js/map.js"></script>
+<script src="assets/js/sendEmail.js"></script>
 </body>
 </html>
+
+
+
+<!--    <form onsubmit="return sendMail(this);" >
+      <input name="name" class="form-input form-input-styling" aria-label="Name" type="text" id="fname" required placeholder="Name">
+      <input name="emailaddress" class="form-input form-input-styling" aria-label="Email" type="email" id="email" required placeholder="Email">
+      <textarea name="projectsummary" class="form-textArea-styling" id="text-area" aria-label="Text Area" rows="4" cols="50" placeholder="Enter Your Message Here"></textarea>
+      <input class="form-submit-styling" aria-label="Submit Button" type="submit" value="Submit">
+    </form>-->
