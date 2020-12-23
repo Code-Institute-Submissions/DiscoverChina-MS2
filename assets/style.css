@@ -35,7 +35,7 @@ nav {
 }
 
 /* Hero Image / Slideshow */
-#hero-image {
+.hero-image-carousel {
     height: 90vh;
     width: 100vw;
     max-width: 100%;
@@ -213,7 +213,20 @@ nav {
   display: none;
 }
 
-.options-btn, .choosePlaceOptionBtn {
+.options-btn {
+  height: 80px;
+  width: 220px;
+  background: #fff3db;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+
+.choosePlaceOptionBtn {
   height: 80px;
   width: 220px;
   background: #fff3db;
