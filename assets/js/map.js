@@ -74,7 +74,7 @@ let map = L.map('map', {
 mapLink =
     '<a href="http://openstreetmap.org">OpenStreetMap</a>';
 L.tileLayer(
-    'http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    'https://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
     attribution: '&copy; ' + mapLink + ' Contributors',
     maxZoom: 18,
 }).addTo(map);
@@ -93,7 +93,6 @@ for (let i = 0; i < locations.length; i++) {
             .bindPopup(locations[i][0])
             .addTo(map);
     } else if (locations[i][3] === 'city') {
-        console.log('testing');
         marker = new L.marker([locations[i][1], locations[i][2]],{icon:cityIcon})
             .bindPopup(locations[i][0])
             .addTo(map);
