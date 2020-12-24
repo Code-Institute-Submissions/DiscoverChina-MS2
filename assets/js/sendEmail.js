@@ -12,5 +12,7 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
+//Clears for after submitting https://www.w3schools.com/Jsref/met_form_reset.asp
+    document.getElementById("myForm").reset();
     return false;  // To block from loading a new page
 }
