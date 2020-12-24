@@ -213,6 +213,20 @@ nav {
   display: none;
 }
 
+.choosePlaceOptionBtn {
+  height: 80px;
+  width: 220px;
+  background: #fff3db;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  outline: none;
+}
+
 .options-btn {
   height: 80px;
   width: 220px;
@@ -221,27 +235,22 @@ nav {
   font-family: "Lato", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  border: none;
   border-radius: 5px;
   margin-top: 4px;
+  outline: none;
 }
 
-.choosePlaceOptionBtn {
-  height: 80px;
-  width: 220px;
-  background: #fff3db;
-  color: black;
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
+.options-btn:focus, .choosePlaceOptionBtn:focus {
   border: none;
-  border-radius: 5px;
-  margin-top: 4px;
+  outline: none;
 }
 
 .options-btn:hover, .choosePlaceOptionBtn:hover {
-  background-color: #542527;
-  color: white;
+color: white;
+background-color: #542527;
+border-radius: 50px;
+border-color: #494949;
+transition: all 0.5s ease 0s;
 }
 
 .margin-btn-top-bottom {
