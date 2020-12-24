@@ -40,32 +40,30 @@ function chooseCategorie(chosen) {
     document.getElementById(chosen).style.display = "inline-block";
   }
   
-  function choosePlace(chosen) {
-    //const options = document.getElementsByClassName("info");
-    const options = $('.secondOptions');
-    const info = $('.info');
+function choosePlace(chosen) {
+  const options = $('.secondOptions');
+  const info = $('.info');
 
-    for (i = 0; i < options.length; i++) {
-      options[i].style.display = "none";
-    }
-
-    for (let x = 0; x < info.length; x++) {
-        info[x].style.display = "none";
-    }
-  
-    document.getElementById(chosen).style.display = "block";
+  for (i = 0; i < options.length; i++) {
+    options[i].style.display = "none";
   }
 
-   function chooseInfo(chosen) {
-    //const options = document.getElementsByClassName("secondOptions");
-    const options = $('.options');
-
-    for (i = 0; i < options.length; i++) {
-      options[i].style.display = "none";
-    }
-  
-    document.getElementById(chosen).style.display = "block";
+  for (let x = 0; x < info.length; x++) {
+      info[x].style.display = "none";
   }
+
+  document.getElementById(chosen).style.display = "block";
+}
+
+function chooseInfo(chosen) {
+  const options = $('.options');
+
+  for (i = 0; i < options.length; i++) {
+    options[i].style.display = "none";
+  }
+
+  document.getElementById(chosen).style.display = "block";
+}
 
   
 
