@@ -74,7 +74,7 @@ nav {
 
 .facts-about-china-btn {
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   background-color: #542527;
   color: white;
   padding: 4px 4px;
@@ -82,7 +82,10 @@ nav {
 }
 
 .facts-about-china-btn:hover {
-  background-color: #a61f0b;
+background-color: #a61f0b;
+border-radius: 50px;
+border-color: #494949;
+transition: all 0.5s ease 0s;
 }
 
 #factsChinaHidden {
