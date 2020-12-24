@@ -2209,21 +2209,18 @@
 </div>
 </section>
 <!--Contact Form-->
-<section id="contact">
 <div class="container text-center form-container">
   <div class="row">
-      <h2 class="col-12 form-h2">Need more information about China? Get In touch!</h2>
+    <div class="col-12"><h2 class="form-h2">Need more information about China? Get In touch!</h2></div>
   </div>
-  <div class="row">
-    <form onsubmit="return sendMail(this);">
-      <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-      <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-      <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-      <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+  <form onsubmit="return sendMail(this);">
+      <div class="col-12"><input type="text" name="name" class="form-input form-input-styling" id="fullname" placeholder="Name" required/></div>
+      <div class="col-12"><input type="text" name="emailaddress" class="form-input form-input-styling" id="emailaddress" placeholder="Email" required/></div>
+      <div class="col-12"><textarea rows="4" cols="50" name="projectsummary" class="form-textArea-styling" id="projectsummary" placeholder="Enter Your Message Here" required></textarea></div>
+      <div class="col-12"><button type="submit" class="form-submit-styling">Submit</button></div>
   </form>
   </div>
 </div>
-</section>
 </div>
 <!--Footer-->
 <section>
@@ -2247,10 +2244,3 @@
 </html>
 
 
-
-<!--    <form onsubmit="return sendMail(this);" >
-      <input name="name" class="form-input form-input-styling" aria-label="Name" type="text" id="fname" required placeholder="Name">
-      <input name="emailaddress" class="form-input form-input-styling" aria-label="Email" type="email" id="email" required placeholder="Email">
-      <textarea name="projectsummary" class="form-textArea-styling" id="text-area" aria-label="Text Area" rows="4" cols="50" placeholder="Enter Your Message Here"></textarea>
-      <input class="form-submit-styling" aria-label="Submit Button" type="submit" value="Submit">
-    </form>-->
