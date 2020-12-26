@@ -106,8 +106,9 @@ Ran all Javascript through [JSHint](https://jshint.com)
 - Found an issue with page loading times, after looking for what is casuing the issue I found it was the amount of images, to fix this I reduced the file sizes and added the lazy loading attribute to the images.
 - After checking the website on each device on chrome developer tools, I found bootstrap medium classes only applied to normal sized tablets, larger tablets like the Ipad Pro caused the site responsivness to break. To fix this I added in a media query to hide the images that broke the responsivness. 
 - A bug was found with the slideshow/ hero images that caused them to be reloaded everytime they done there cycle through, to fix this issue I removed the custom script and opted for bootstrap carousul which fixed the bug.
-### Known Issues
+- Found a bug where the to top button would go behind the map, to fix this I added **z-index: 1;** to the map.
 - Lazy Loading is currently supported by (Chrome, Edge, Opera and Firefox), It is currently under development for Safari [Link About lazy loading support](https://web.dev/browser-level-image-lazy-loading/).
+- Top Button goes behind 
 
 ## Deployment
 This site was deployed on GitHub Pages, the steps I took to do this was:
