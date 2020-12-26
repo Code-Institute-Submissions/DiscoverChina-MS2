@@ -97,9 +97,9 @@ for (let i = 0; i < locations.length; i++) {
             .bindPopup(locations[i][0])
             .addTo(map);
     }
-};
+}
 // options button zoom to location when clicked
-$(".options-btn").click(function () {
+$(".options-a").click(function () {
     thisLat = this.dataset.coords.split(",")[0];
     thisLng = this.dataset.coords.split(",")[1];
     thisZoom = parseInt(this.dataset.zoom);
