@@ -336,6 +336,10 @@ transition: all 0.5s ease 0s;
   .smaller-img {
     display: none;
   }
+  .options-a {
+    display: block;
+    width: 100%;
+  }
 }
 
 .info-img:hover {
@@ -381,6 +385,7 @@ transition: all 0.5s ease 0s;
 #map {
   width: 100%;
   height: 500px;
+  z-index: 1;
 }
 
 /* Info Window Styling */
