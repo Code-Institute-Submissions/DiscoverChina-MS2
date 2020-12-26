@@ -8,19 +8,15 @@ function factsChina() {
   }
 }
 
-// To Top Button https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
-//Get the button:
-mybutton = document.getElementById("toTopBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
+// To Top Button https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/
+var scrollToTopBtn = document.getElementById("scrollToTopBtn")
+var rootElement = document.documentElement
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
 }
 
 // When the user clicks on the button, scroll to the top of the document
