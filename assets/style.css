@@ -241,7 +241,7 @@ transition: all 0.5s ease 0s;
   font-size: 24px;
   font-weight: 600;
   border-radius: 5px;
-  border: black 2px solid;
+  border: #fff3db 2px solid;
   margin-top: 4px;
   outline: none;
   text-decoration: none;
