@@ -10,8 +10,8 @@
     <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
     <link rel="stylesheet" href="assets/style.css">
 <!--Email JS-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
       (function(){
         emailjs.init("user_mIjGgbIVbEpp6XRr0o39S");
       })();
@@ -39,7 +39,6 @@
   </div>
 </nav>
 <!--Hero Image/Slide-->
-<section>
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -70,12 +69,11 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-</section>
 <!--Outside Background Image-->
 <section id="outside-background-image">
 <!--Inside Background Colour-->
 <div id="inside-background-colour">
-<!--About Section---->
+<!--About Section-->
 <div id="about" class="container text-center">
   <div class="row">
       <div class="col-12"><h2 class="about-h2-styling">- Our Mission -</h2></div>
@@ -255,31 +253,23 @@
   <div id="touristDestinations-shanghai" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#orientalPearlTower">
-          <button class="options-btn" onclick="choosePlace('orientalPearlTower')" data-coords="31.2397,121.4998" data-zoom="15">
-            Oriental Pearl Tower
-          </button>
+        <a href="#orientalPearlTower" class="options-a" onclick="choosePlace('orientalPearlTower')" data-coords="31.2397,121.4998" data-zoom="15">
+          Oriental Pearl Tower
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#nanjingRoadMarket">
-          <button class="options-btn" onclick="choosePlace('nanjingRoadMarket')" data-coords="31.2342,121.4713" data-zoom="15">
-            Nanjing Road Market
-          </button>
+        <a href="#nanjingRoadMarket" class="options-a" onclick="choosePlace('nanjingRoadMarket')" data-coords="31.2342,121.4713" data-zoom="15">
+          Nanjing Road Market
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#theShanghaiMuseum">
-          <button class="options-btn" onclick="choosePlace('theShanghaiMuseum')" data-coords="31.2283,121.4451" data-zoom="15">
-              The Shanghai Museum
-          </button>
+        <a href="#theShanghaiMuseum" class="options-a" onclick="choosePlace('theShanghaiMuseum')" data-coords="31.2283,121.4451" data-zoom="15">
+            The Shanghai Museum
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-       <a href="#jadeBuddhaTemple">
-         <button class="options-btn" onclick="choosePlace('jadeBuddhaTemple')" data-coords="31.2413,121.4451" data-zoom="15">
-          Jade Buddha Temple
-          </button>
+        <a href="#jadeBuddhaTemple" class="options-a" onclick="choosePlace('jadeBuddhaTemple')" data-coords="31.2413,121.4451" data-zoom="15">
+        Jade Buddha Temple
         </a>
       </span>
     </div>
@@ -288,30 +278,24 @@
   <div id="touristDestinations-beijing" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#templeOfHeaven">
-          <button class="options-btn" onclick="choosePlace('templeOfHeaven')" data-coords="39.8822,116.4066" data-zoom="15">
+          <a href="#templeOfHeaven" class="options-a" onclick="choosePlace('templeOfHeaven')" data-coords="39.8822,116.4066" data-zoom="15">
           Temple Of Heaven
-          </button>
-        </a>
+          </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#theImerialPalaceAndTheForbiddenCity"><button class="options-btn"  onclick="choosePlace('theImerialPalaceAndTheForbiddenCity')" data-coords="39.9169,116.3907" data-zoom="15">
+        <a href="#theImerialPalaceAndTheForbiddenCity" class="options-a"  onclick="choosePlace('theImerialPalaceAndTheForbiddenCity')" data-coords="39.9169,116.3907" data-zoom="15">
           The Imperial Palace and the Forbidden City
-        </button></a>
+        </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#theGreatWallOfChina">
-          <button class="options-btn"  onclick="choosePlace('theGreatWallOfChina')" data-coords="40.4319,116.5704" data-zoom="15">
+          <a href="#theGreatWallOfChina" class="options-a"  onclick="choosePlace('theGreatWallOfChina')" data-coords="40.4319,116.5704" data-zoom="15">
           The Great Wall of China
-          </button>
-        </a>
+          </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#beijingCapitalMuseum">
-          <button class="options-btn" onclick="choosePlace('beijingCapitalMuseum')"  data-coords="39.9064,116.3419" data-zoom="15">
+          <a href="#beijingCapitalMuseum" class="options-a" onclick="choosePlace('beijingCapitalMuseum')"  data-coords="39.9064,116.3419" data-zoom="15">
           Beijing Capital Museum
-          </button>
-        </a>
+          </a>
       </span>
     </div>
   </div>
@@ -319,31 +303,23 @@
   <div id="touristDestinations-hongkong" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#victoriaPeak">
-          <button  class="options-btn"  onclick="choosePlace('victoriaPeak')" data-coords="22.2759,114.1455" data-zoom="15">
-          Victoria Peak
-          </button>
+        <a href="#victoriaPeak"  class="options-a"  onclick="choosePlace('victoriaPeak')" data-coords="22.2759,114.1455" data-zoom="15">
+        Victoria Peak
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#starFerry">
-          <button class="options-btn" onclick="choosePlace('starFerry')" data-coords="22.2857,114.1567" data-zoom="15">
-          Star Ferry
-          </button>
+        <a href="#starFerry" class="options-a" onclick="choosePlace('starFerry')" data-coords="22.2857,114.1567" data-zoom="15">
+        Star Ferry
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#bigBuddha">
-          <button class="options-btn"  onclick="choosePlace('bigBuddha')" data-coords="22.2540,113.9050" data-zoom="15">
-          Big Buddha (Tian Tan Buddha Statue)
-          </button>
+        <a href="#bigBuddha" class="options-a"  onclick="choosePlace('bigBuddha')" data-coords="22.2540,113.9050" data-zoom="15">
+        Big Buddha (Tian Tan Buddha Statue)
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#wongTaiSinTemple">
-          <button class="options-btn" onclick="choosePlace('wongTaiSinTemple')" data-coords="22.3427, 114.1933" data-zoom="15">
-          Wong Tai Sin Temple
-          </button>
+        <a href="#wongTaiSinTemple" class="options-a" onclick="choosePlace('wongTaiSinTemple')" data-coords="22.3427, 114.1933" data-zoom="15">
+        Wong Tai Sin Temple
         </a>
       </span>
     </div>
@@ -352,32 +328,24 @@
   <div id="restaurants-shanghai" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#hakkasan">
-          <button class="options-btn" onclick="choosePlace('hakkasan')" data-coords="31.23697201695567, 121.48328658291878" data-zoom="15">
-          Hakkasan
-          </button>
+        <a href="#hakkasan" class="options-a" onclick="choosePlace('hakkasan')" data-coords="31.23697201695567, 121.48328658291878" data-zoom="15">
+        Hakkasan
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#hiya">
-          <button class="options-btn" onclick="choosePlace('hiya')"  data-coords="31.1422,121.2853" data-zoom="15">
+          <a href="#hiya" class="options-a" onclick="choosePlace('hiya')"  data-coords="31.1422,121.2853" data-zoom="15">
           Hiya
-          </button>
-        </a>
+          </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#mercato">
-          <button class="options-btn" onclick="choosePlace('mercato')"  data-coords="31.1200,121.2354" data-zoom="15">
+          <a href="#mercato" class="options-a" onclick="choosePlace('mercato')"  data-coords="31.1200,121.2354" data-zoom="15">
           Mercato
-          </button>
-        </a>
+          </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#mrAndMrsBund">
-          <button class="options-btn" onclick="choosePlace('mrAndMrsBund')"  data-coords="31.1418,121.2922" data-zoom="15">
+          <a href="#mrAndMrsBund" class="options-a" onclick="choosePlace('mrAndMrsBund')"  data-coords="31.1418,121.2922" data-zoom="15">
           Mr and Mrs Bund
-          </button>
-        </a>
+          </a>
       </span>
     </div>
   </div>
@@ -385,31 +353,23 @@
   <div id="restaurants-beijing" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#jubaoyuanHotPotRestaurant">
-          <button class="options-btn" onclick="choosePlace('jubaoyuanHotPotRestaurant')" data-coords="39.8869,116.3632" data-zoom="15">
-          Jubaoyuan Hot Pot Restaurant
-          </button>
+        <a href="#jubaoyuanHotPotRestaurant" class="options-a" onclick="choosePlace('jubaoyuanHotPotRestaurant')" data-coords="39.8869,116.3632" data-zoom="15">
+        Jubaoyuan Hot Pot Restaurant
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#qingFengSteamedDumplingShop">
-          <button class="options-btn" onclick="choosePlace('qingFengSteamedDumplingShop')" data-coords="39.5527,116.2320" data-zoom="15">
-          Qing-Feng Steamed Dumpling Shop
-          </button>
+        <a href="#qingFengSteamedDumplingShop" class="options-a" onclick="choosePlace('qingFengSteamedDumplingShop')" data-coords="39.5527,116.2320" data-zoom="15">
+        Qing-Feng Steamed Dumpling Shop
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#qianmenQuanjude">
-          <button class="options-btn" onclick="choosePlace('qianmenQuanjude')" data-coords="39.89653417557819,116.3982514674211" data-zoom="15">
-          Qianmen Quanjude
-          </button>
+        <a href="#qianmenQuanjude" class="options-a" onclick="choosePlace('qianmenQuanjude')" data-coords="39.89653417557819,116.3982514674211" data-zoom="15">
+        Qianmen Quanjude
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#yuebinRestaurant">
-          <button class="options-btn" onclick="choosePlace('yuebinRestaurant')" data-coords="39.92401,116.40750" data-zoom="15">
-          Yuebin Restaurant
-          </button>
+        <a href="#yuebinRestaurant" class="options-a" onclick="choosePlace('yuebinRestaurant')" data-coords="39.92401,116.40750" data-zoom="15">
+        Yuebin Restaurant
         </a>
       </span>
     </div>
@@ -418,31 +378,23 @@
   <div id="restaurants-hongkong" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#aulis">
-          <button class="options-btn" onclick="choosePlace('aulis')"  data-coords="22.2815,114.1824" data-zoom="15">
-          Aulis
-          </button>
+        <a href="#aulis" class="options-a" onclick="choosePlace('aulis')"  data-coords="22.2815,114.1824" data-zoom="15">
+        Aulis
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#chaat">
-          <button class="options-btn" onclick="choosePlace('chaat')"  data-coords="22.2949,114.1755" data-zoom="15">
-          Chaat
-          </button>
+        <a href="#chaat" class="options-a" onclick="choosePlace('chaat')"  data-coords="22.2949,114.1755" data-zoom="15">
+        Chaat
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#arbor">
-          <button class="options-btn" onclick="choosePlace('arbor')"  data-coords="22.28322,114.15535" data-zoom="15">
-          Arbor
-          </button>
+        <a href="#arbor" class="options-a" onclick="choosePlace('arbor')"  data-coords="22.28322,114.15535" data-zoom="15">
+        Arbor
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#theChairman">
-          <button class="options-btn" onclick="choosePlace('theChairman')"  data-coords="22.284580,114.152672" data-zoom="15">
-          The Chairman
-          </button>
+        <a href="#theChairman" class="options-a" onclick="choosePlace('theChairman')"  data-coords="22.284580,114.152672" data-zoom="15">
+        The Chairman
         </a>
       </span>
     </div>
@@ -451,31 +403,23 @@
   <div id="parks-shanghai" class="secondOptions">
     <div class="row options-display-style text-center">
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#yuGardenShanghai">
-          <button class="options-btn" onclick="choosePlace('yuGardenShanghai')"  data-coords="31.2272,121.4921" data-zoom="15">
-          Yu Garden Shanghai
-          </button>
+        <a href="#yuGardenShanghai" class="options-a" onclick="choosePlace('yuGardenShanghai')"  data-coords="31.2272,121.4921" data-zoom="15">
+        Yu Garden Shanghai
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#theBundPromenade">
-          <button class="options-btn" onclick="choosePlace('theBundPromenade')"  data-coords="31.2272,121.4921" data-zoom="15">
-          The Bund Promenade
-          </button>
+        <a href="#theBundPromenade" class="options-a" onclick="choosePlace('theBundPromenade')"  data-coords="31.2272,121.4921" data-zoom="15">
+        The Bund Promenade
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#thePeoplesSquare">
-          <button class="options-btn" onclick="choosePlace('thePeoplesSquare')"  data-coords="31.2297,121.4762" data-zoom="15">
-          The Peoples Square
-          </button>
+        <a href="#thePeoplesSquare" class="options-a" onclick="choosePlace('thePeoplesSquare')"  data-coords="31.2297,121.4762" data-zoom="15">
+        The Peoples Square
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#longhuaTempleAndPagoda">
-          <button class="options-btn" onclick="choosePlace('longhuaTempleAndPagoda')"  data-coords="31.1738,121.4519" data-zoom="15">
-          Longhua Temple and Pagoda
-          </button>
+        <a href="#longhuaTempleAndPagoda" class="options-a" onclick="choosePlace('longhuaTempleAndPagoda')"  data-coords="31.1738,121.4519" data-zoom="15">
+        Longhua Temple and Pagoda
         </a>
       </span>
     </div>
@@ -484,31 +428,23 @@
   <div id="parks-beijing" class="secondOptions">
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#beihaiPark">
-          <button class="options-btn" onclick="choosePlace('beihaiPark')"  data-coords="39.92401,116.40750" data-zoom="15">
-          Beihai Park
-          </button>
+        <a href="#beihaiPark" class="options-a" onclick="choosePlace('beihaiPark')"  data-coords="39.92401,116.40750" data-zoom="15">
+        Beihai Park
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#tiananmenSquare">
-          <button class="options-btn" onclick="choosePlace('tiananmenSquare')"  data-coords="39.9254,116.3893" data-zoom="15">
-          Tiananmen Square
-          </button>
+        <a href="#tiananmenSquare" class="options-a" onclick="choosePlace('tiananmenSquare')"  data-coords="39.9254,116.3893" data-zoom="15">
+        Tiananmen Square
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#coalHillPark">
-          <button class="options-btn" onclick="choosePlace('coalHillPark')"  data-coords="39.5525,116.2326" data-zoom="15">
-          Coal Hill Park (Jingshan)
-          </button>
+        <a href="#coalHillPark" class="options-a" onclick="choosePlace('coalHillPark')"  data-coords="39.5525,116.2326" data-zoom="15">
+        Coal Hill Park (Jingshan)
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#theOldSummerPalace">
-          <button class="options-btn" onclick="choosePlace('theOldSummerPalace')"  data-coords="40.0081,116.2982" data-zoom="15">
-          The Old Summer Palace
-          </button>
+        <a href="#theOldSummerPalace" class="options-a" onclick="choosePlace('theOldSummerPalace')"  data-coords="40.0081,116.2982" data-zoom="15">
+        The Old Summer Palace
         </a>
       </span>
     </div>
@@ -517,31 +453,23 @@
   <div id="parks-hongkong" class="secondOptions">               
     <div class="row options-display-style">
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#oceanPark">
-          <button class="options-btn" onclick="choosePlace('oceanPark')"  data-coords="22.2467,114.1757" data-zoom="15">
-          Ocean Park
-          </button>
+        <a href="#oceanPark" class="options-a" onclick="choosePlace('oceanPark')"  data-coords="22.2467,114.1757" data-zoom="15">
+        Ocean Park
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#hongKongPark">
-          <button  class="options-btn" onclick="choosePlace('hongKongPark')"  data-coords="22.2765,114.1596" data-zoom="15">
-          Hong Kong Park
-          </button>
+        <a href="#hongKongPark" class="options-a" onclick="choosePlace('hongKongPark')"  data-coords="22.2765,114.1596" data-zoom="15">
+        Hong Kong Park
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#chiLinNunneryAndNanLianGarden">
-          <button class="options-btn" onclick="choosePlace('chiLinNunneryAndNanLianGarden')"  data-coords="22.3404, 114.2055" data-zoom="15">
-          Chi Lin Nunnery and Nan Lian Garden
-          </button>
+        <a href="#chiLinNunneryAndNanLianGarden" class="options-a" onclick="choosePlace('chiLinNunneryAndNanLianGarden')"  data-coords="22.3404, 114.2055" data-zoom="15">
+        Chi Lin Nunnery and Nan Lian Garden
         </a>
       </span>
       <span class="col-12 col-md-6 col-lg-3">
-        <a href="#hongKongSkyline">
-          <button class="options-btn" onclick="choosePlace('hongKongSkyline')" data-coords="22.2855,114.1577" data-zoom="15">
-          Hong Kong Skyline
-          </button>
+        <a href="#hongKongSkyline" class="options-a" onclick="choosePlace('hongKongSkyline')" data-coords="22.2855,114.1577" data-zoom="15">
+        Hong Kong Skyline
         </a>
       </span>
     </div>
@@ -2117,7 +2045,7 @@
   <div class="row text-center">
     <div class="col-6 d-none d-lg-block thumbnail">
       <a target="_blank" href="assets/images/chiLinNunneryAndNanLianGarden1.jpg">
-        <img class="info-img main-img" src="assets/images/chiLinNunneryAndNanLianGarden1.jpg"  loading="lazy"alt="Chi Lin Nunnery and Nan Lian Garden"></a>
+        <img class="info-img main-img" src="assets/images/chiLinNunneryAndNanLianGarden1.jpg"  loading="lazy" alt="Chi Lin Nunnery and Nan Lian Garden"></a>
     </div>
     <div class="col-12 col-lg-6 info-text-wrapper text-center">
       <div class="col-12"><h3 class="info-h3">Chi Lin Nunnery and Nan Lian Garden</h3></div>
@@ -2221,9 +2149,8 @@
   </form>
   </div>
 </div>
-</div>
+</section>
 <!--Footer-->
-<section>
   <div class="container-fluid footer-container">
     <div class="row text-center">
       <div class="col-3"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f social-icon"></i></a></div>
@@ -2232,7 +2159,7 @@
       <div class="col-3"><a href="https://github.com/JackTubby" target="_blank"><i class="fab fa-github social-icon"></i></a></div>
     </div>
   </div>
-</section>
+<!--Script Tags-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
