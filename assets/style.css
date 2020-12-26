@@ -230,7 +230,7 @@ transition: all 0.5s ease 0s;
   outline: none;
 }
 
-.options-btn {
+.options-a {
   height: 80px;
   width: 220px;
   background: #fff3db;
@@ -238,21 +238,21 @@ transition: all 0.5s ease 0s;
   font-family: "Lato", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  border-radius: 5px;
+  border: 24px solid #fff3db;
   margin-top: 4px;
   outline: none;
 }
 
-.options-btn:focus, .choosePlaceOptionBtn:focus {
+.options-a:focus, .choosePlaceOptionBtn:focus {
   border: none;
   outline: none;
 }
 
-.options-btn:hover, .choosePlaceOptionBtn:hover {
+.options-a:hover, .choosePlaceOptionBtn:hover {
 color: white;
 background-color: #542527;
 border-radius: 50px;
-border-color: #494949;
+border-color: #542527;
 transition: all 0.5s ease 0s;
 }
 
