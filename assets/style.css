@@ -230,17 +230,22 @@ transition: all 0.5s ease 0s;
   outline: none;
 }
 
+.options-a-wrapper {
+  margin-top: 8px;
+}
+
 .options-a {
-  height: 80px;
-  width: 220px;
   background: #fff3db;
   color: black;
   font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
-  border: 24px solid #fff3db;
+  border-radius: 5px;
+  border: black 2px solid;
   margin-top: 4px;
   outline: none;
+  text-decoration: none;
+  padding: 20px 10px 20px 10px;
 }
 
 .options-a:focus, .choosePlaceOptionBtn:focus {
