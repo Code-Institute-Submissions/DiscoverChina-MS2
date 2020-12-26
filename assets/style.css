@@ -231,14 +231,15 @@ transition: all 0.5s ease 0s;
 }
 
 .options-a-wrapper {
-  margin-top: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .options-a {
   background: #fff3db;
   color: black;
   font-family: "Lato", sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   border-radius: 5px;
   border: #fff3db 2px solid;
