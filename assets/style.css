@@ -336,7 +336,7 @@ text-decoration: none;
 }
 
 /* To fix small info images from moving too far down and display issues on ipad pro */
-@media (min-width:994px) and (max-width:1746px){
+@media (min-width:994px) and (max-width:1400px){
   .smaller-img {
     display: none;
   }
