@@ -48,6 +48,7 @@ This project is targeted at a wide range of users, from distinguished travellers
 Imagery was carefully chosen to best show each tourist location.
 ### Wireframes
 My wireframe includes a desktop, tablet and mobile version.
+[WireFrame](assets/docs/DiscoverChinaWireframe.pdf)
 
 ## Features 
 ### Existing Features
