@@ -1,7 +1,7 @@
 # Discover China
 (assets/images/websiteSnip.png)
 This is a website that provides information to users on three key chinese cities and locations to visit in those different cities.
-[LiveSite](https://jacktubby.github.io/MS2/)
+[LiveSite](https://jacktubby.github.io/DiscoverChina-MS2/)
 
 ## UX 
 This project is targeted at a wide range of users, from distinguished travellers, to first time travellers. The main focus on the website is to provide information, recommended tourist locations, images, map locations, contact form and social media links.
