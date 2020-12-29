@@ -43,7 +43,7 @@ This project is targeted at a wide range of users, from distinguished travellers
  - black,
 #### Typography
 - "Stylish" Used for titles as it goes well with the oriental theme.
-- "Lato" Used for most of the text throughout the website, as it is a clean font and makes it very user friendly and easy to read.
+- "Lato" Used for most of the text throughout the website, as it is a clean font and makes it very user-friendly and easy to read.
 #### Imagery
 Imagery was carefully chosen to best show each tourist location.
 ### Wireframes
