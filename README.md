@@ -1,5 +1,5 @@
 # Discover China
-(assets/images/websiteSnip.png)
+[Website Snippet](assets/images/websiteSnip.png)
 This is a website that provides information to users on three key chinese cities and locations to visit in those different cities.
 [LiveSite](https://jacktubby.github.io/DiscoverChina-MS2/)
 
