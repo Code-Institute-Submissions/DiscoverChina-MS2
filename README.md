@@ -125,7 +125,7 @@ Ran all Javascript through [JSHint](https://jshint.com) Passed with no major err
 - A bug was found with the slideshow/ hero images that caused them to be reloaded everytime they finished going through the slideshow, this caused the loading time to go up. To fix this issue I removed the custom script and opted for bootstrap carousul which fixed the bug.
 - I found a bug where the to top button would go behind the map, to fix this I added **z-index: 1;** to the map.
 - Lazy Loading is currently supported by (Chrome, Edge, Opera and Firefox). It is currently under development for Safari [Link About lazy loading support](https://web.dev/browser-level-image-lazy-loading/).
-- Top Button goes behind 
+- Found an issue where on smaller screen sizes, when the tourist destination buttons were clicked it would not show the changes below. To fix this I changed the buttons to links and made it so when clicked it would go to the info window, so the user knows the buttons do something.
 
 ## Deployment
 This site was deployed on GitHub Pages, the steps I took to do this was:
