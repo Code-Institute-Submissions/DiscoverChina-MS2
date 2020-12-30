@@ -35,12 +35,12 @@ This project is targeted at a wide range of users, from distinguished travellers
 
 #### Colours
  I have chosen colours that suit the oriental theme of my website. The colours that have been chosen are:
- - #fff3db, 
- - #a61f0b,
- - #542527,
- - #f25b43,
- - white,
- - black,
+ - #fff3db
+ - #a61f0b
+ - #542527
+ - #f25b43
+ - white
+ - black
 #### Typography
 - "Stylish" Used for titles as it goes well with the oriental theme.
 - "Lato" Used for most of the text throughout the website, as it is a clean font and makes it very user-friendly and easy to read.
