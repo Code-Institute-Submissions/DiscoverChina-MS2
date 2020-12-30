@@ -88,24 +88,38 @@ My wireframe includes a desktop, tablet and mobile version.
  ## Testing
 ### HTML Testing
 Ran all HTML through [W3 Validator](https://validator.w3.org)
-- **One Error:** "The element button must not appear as a descendant of the a element." **Fix** Removed anchor tags and changed the button elements to anchor tags.  
+- **One Error:** "The element button must not appear as a descendant of the a element." **Fix** Removed anchor tags and changed the button elements to anchor tags. 
 [HTML Validator No Errors](assets/images/htmlValidator.png)
 ### CSS Testing 
 Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 [CSS Validators No Errors](assets/images/cssValidator.png)
 ### Javascript Testing
-Ran all Javascript through [JSHint](https://jshint.com)
+- Navigation & Intro
+    - Clicked on all navbar links to check smooth scrolling is working. **Worked** 
+- About Section 
+    - Clicked on 'Facts About China' button to check it opens the correct content. **Worked**
+- Recommended Location Section
+    - Checked the three cities buttons to ensure they show the correct 'attractions, restaurants, parks' buttons. **Worked**
+    - Clicked the 'attractions, restaurants, parks' buttons to check the open the correct tourist destinations. **Worked** 
+    - Clicked each tourist destination to ensure it opens the correct option content and zooms to location on map. **Worked**
+- Map
+    - Clicked each marker to test it opened the correct info window. **Worked**
+- Contact Form (email.js)
+    - Filled in the contact form and clicked submit.
+    - Checked my gmail to check I recieved the email. **Worked**
+- To top button
+    - Clicked the to top button to check it scrolled to the top of the website. **Worked**
 #### script.js
-- **No errors**
+Ran all Javascript through [JSHint](https://jshint.com) Passed with no major errors.
 #### sendEamil.js
-- **No errors**
+Ran all Javascript through [JSHint](https://jshint.com) Passed with no major errors.
 #### map.js
-- **No errors:**
+Ran all Javascript through [JSHint](https://jshint.com) Passed with no major errors.
 ### Responsiveness
 - Using **Dev Tools** a range of widths on different devices were tested from a Moto G4 (360px) to desktop screen (1920px). 
 - Physically viewed on multiple devices (Iphone XR, Iphone 12, Iphone 12 Plus, Ipad, Desktop).
 - Tested on multiple browsers (Google Chrome, Opera, Firefox, Microsoft Edge and Safari).
-### Manual Testing problems and solutions
+### Testing problems and solutions
 - I found an issue with page loading times, after looking for what was casuing the issue I established it was the amount of images, to fix this I reduced the file sizes and added the lazy loading attribute to the images.
 - After checking the website on each device on chrome developer tools, I found bootstrap medium classes only applied to normal sized tablets, larger tablets like the Ipad Pro caused the site responsiveness to break. To fix this I added in a media query to hide the images that broke the responsiveness. 
 - A bug was found with the slideshow/ hero images that caused them to be reloaded everytime they finished going through the slideshow, this caused the loading time to go up. To fix this issue I removed the custom script and opted for bootstrap carousul which fixed the bug.
