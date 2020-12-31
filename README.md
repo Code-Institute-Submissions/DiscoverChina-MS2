@@ -46,6 +46,8 @@ This project is targeted at a wide range of users, from distinguished travellers
 - "Lato" Used for most of the text throughout the website, as it is a clean font and makes it very user-friendly and easy to read.
 #### Imagery
 Imagery was carefully chosen to best show each tourist location.
+#### Map
+An interactive map with markers and info windows, with a zoom to location when the location button is clicked.
 ### Wireframes
 My wireframe includes a desktop, tablet and mobile version.
 [WireFrame](assets/docs/DiscoverChinaWireframe.pdf)
