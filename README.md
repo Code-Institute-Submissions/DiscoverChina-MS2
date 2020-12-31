@@ -23,13 +23,13 @@ This project is targeted at a wide range of users, from distinguished travellers
 * "I want my users to learn of different tourist destinations in the recommended locations".
 
 ### User Stories
-* "I want to see idea's of where I should visit China". **Screenshot of finished project that aligns with user story**[Screenshot](assets/images/screenshotOfUserStory1.png)
-* "I want to see some recommended locations in China". **Screenshot of finished project that aligns with user story**[Screenshot](assets/images/screenshotOfUserStory2.png)
-* "I want to learn about tourist destinations in China if I decide to visit". **Screenshot of finished project that aligns with user story**[Screenshot](assets/images/screenshotOfUserStory3.png)
-* "I do all my online searches on my mobile". **Screenshot of finished project that aligns with user story**[Screenshot](assets/images/screenshotOfUserStory4.png)
-* "I want to see the tourist locations on a map". **Screenshot of finished project that aligns with user story**[Screenshot]assets/images/(screenshotOfUserStory5.png)
-* "I want to know simple facts about China". **Screenshot of finished project that aligns with user story**[Screenshot](assets/images/screenshotOfUserStory6.png)
-* "I want to be able to get in touch, using a contact form if I have more questions". **Screenshot of finished project that aligns with user story**[Screenshot](assets/images/screenshotOfUserStory7.png)
+* "I want to see idea's of where I should visit China". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory1.png)
+* "I want to see some recommended locations in China". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory2.png)
+* "I want to learn about tourist destinations in China if I decide to visit". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory3.png)
+* "I do all my online searches on my mobile". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory4.png)
+* "I want to see the tourist locations on a map". **Screenshot of finished project that aligns with user story** [Screenshot]assets/images/(screenshotOfUserStory5.png)
+* "I want to know simple facts about China". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory6.png)
+* "I want to be able to get in touch, using a contact form if I have more questions". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory7.png)
 
 ### Surface
 
