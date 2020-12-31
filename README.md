@@ -23,13 +23,13 @@ This project is targeted at a wide range of users, from distinguished travellers
 * "I want my users to learn of different tourist destinations in the recommended locations".
 
 ### User Stories
-* "I want to know where I should visit China".
-* "I want to see some recommended locations in China".
-* "I want to learn about tourist destinations in China if I decide to visit".
-* "I do all my online searches on my mobile".
-* "I want to see the tourist locations on a map".
-* "I want to know simple facts about China".
-* "I want to be able to get in touch, using a contact form if I have more questions".
+* "I want to see idea's of where I should visit China". **Screenshot of finished project that aligns with user story**[Screenshot](screenshotOfUserStory1.png)
+* "I want to see some recommended locations in China". **Screenshot of finished project that aligns with user story**[Screenshot](screenshotOfUserStory2.png)
+* "I want to learn about tourist destinations in China if I decide to visit". **Screenshot of finished project that aligns with user story**[Screenshot](screenshotOfUserStory3.png)
+* "I do all my online searches on my mobile". **Screenshot of finished project that aligns with user story**[Screenshot](screenshotOfUserStory4.png)
+* "I want to see the tourist locations on a map". **Screenshot of finished project that aligns with user story**[Screenshot](screenshotOfUserStory5.png)
+* "I want to know simple facts about China". **Screenshot of finished project that aligns with user story**[Screenshot](screenshotOfUserStory6.png)
+* "I want to be able to get in touch, using a contact form if I have more questions". **Screenshot of finished project that aligns with user story**[Screenshot](screenshotOfUserStory7.png)
 
 ### Surface
 
@@ -110,10 +110,13 @@ Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 - To top button
     - Clicked the to top button to check it scrolled to the top of the website. **Worked**
 #### script.js
+Manually tested throughout with console.logs.
 Ran all Javascript through [JSHint](https://jshint.com) Passed with no major errors.
 #### sendEamil.js
+Manually tested throughout with console.logs.
 Ran all Javascript through [JSHint](https://jshint.com) Passed with no major errors.
 #### map.js
+Manually tested throughout with console.logs.
 Ran all Javascript through [JSHint](https://jshint.com) Passed with no major errors.
 ### Responsiveness
 - Using **Dev Tools** a range of widths on different devices were tested from a Moto G4 (360px) to desktop screen (1920px). 
