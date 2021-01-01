@@ -7,7 +7,7 @@ function sendMail(contactForm) {
     .then(
         function() {
             let submitButton = document.getElementById('submitBtn');
-            submitButton.innerHTML = "Sent!"
+            submitButton.innerHTML = "Sent!";
             submitButton.style.backgroundColor = "green";
         },
         function(error) {
