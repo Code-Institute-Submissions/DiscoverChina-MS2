@@ -145,9 +145,9 @@ This site was deployed on GitHub Pages, the steps I took to do this was:
  ## Credits
  ### Code
  - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap was used to add responsiveness to the website.
- - [Pexels](https://www.pexels.com/): Pexels was used to provide images for the website.
  ### Media
- * The photos used in the Gallery were obtained from two locations: Google Reviews and https://www.pexels.com/
+ * Information and some imagery was optained from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+ * The photos used in the Gallery were obtained from two locations: Google Reviews and [Pexels](https://www.pexels.com/)
  * Trip Advisor and Wikipedia was utilized for information on the info options, and to provide a link to the corresponding option.
 
  ### Acknowledgements
