@@ -5,11 +5,13 @@ function sendMail(contactForm) {
         "project_request": contactForm.projectsummary.value
     })
     .then(
-        function(response) {
-            console.log("SUCCESS", response);
+        function() {
+            let submitButton = document.getElementById('submitBtn');
+            submitButton.innerHTML = "Sent!"
+            submitButton.style.backgroundColor = "green";
         },
         function(error) {
-            console.log("FAILED", error);
+            alert("It seems something went wrong. Please fill out the form and submit again", error);
         }
     );
 //Clears after submitting https://www.w3schools.com/Jsref/met_form_reset.asp
