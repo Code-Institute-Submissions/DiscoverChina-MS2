@@ -27,14 +27,14 @@ function topFunction() {
 
 // Chosen between shanghai beijing hong-kong
 function chooseCategorie(chosen) {
-    const options = document.getElementsByClassName("options");
+  const options = document.getElementsByClassName("options");
   
-    for (i = 0; i < options.length; i++) {
-      options[i].style.display = "none";
-    }
-  
-    document.getElementById(chosen).style.display = "inline-block";
+  for (i = 0; i < options.length; i++) {
+    options[i].style.display = "none";
   }
+  
+  document.getElementById(chosen).style.display = "inline-block";
+}
   
 function choosePlace(chosen) {
   const options = $('.secondOptions');
