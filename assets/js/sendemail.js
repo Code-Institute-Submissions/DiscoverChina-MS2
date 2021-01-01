@@ -2,7 +2,7 @@ function sendMail(contactForm) {
     emailjs.send("service_onagj7g", "DiscoverChinaID", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.projectsummary.value
+        "project_request": contactForm.messagearea.value
     })
     .then(
         function() {
