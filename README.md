@@ -108,7 +108,8 @@ Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
     - Clicked each marker to test it opened the correct info window. **Worked**
 - Contact Form (email.js)
     - Filled in the contact form and clicked submit.
-    - Checked my gmail to check I recieved the email. **Worked**
+    - Checked my gmail to check I recieved the email. [Test Screenshot](assets/images/contactFormWorked.png) **Worked**
+    - Changed ID in sendemail.js to check my error alert showed when I filled the form and clicked submit. [Test Screenshot](assets/images/contactFormError.png) **Worked** 
 - To top button
     - Clicked the to top button to check it scrolled to the top of the website. **Worked**
 #### script.js
