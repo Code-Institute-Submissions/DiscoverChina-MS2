@@ -9,14 +9,14 @@ function factsChina() {
 }
 
 // To Top Button https://css-tricks.com/how-to-make-an-unobtrusive-scroll-to-top-button/
-var scrollToTopBtn = document.getElementById("scrollToTopBtn")
-var rootElement = document.documentElement
+var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+var rootElement = document.documentElement;
 function scrollToTop() {
   // Scroll to top logic
   rootElement.scrollTo({
     top: 0,
     behavior: "smooth"
-  })
+  });
 }
 
 // When the user clicks on the button, scroll to the top of the document
