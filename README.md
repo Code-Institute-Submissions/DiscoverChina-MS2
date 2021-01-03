@@ -1,5 +1,5 @@
 # Discover China
-![Website Snippet](assets/images/websiteSnip.png)
+![Website Snippet](assets/images/website-snip.png)
 This is a website that provides information to users on three key chinese cities and locations to visit in those different cities.
 [LiveSite](https://jacktubby.github.io/DiscoverChina-MS2/)
 
@@ -19,17 +19,17 @@ This project is targeted at a wide range of users, from distinguished travellers
 * "I want my users to be able to get in contact, by submitting a contact form".
 * "I want my users to be able to see our recommended locations in China".
 * "I want my users to be able to click on markers at tourist destinations, in our recommended locations maps".
-* "I want my users to be easily linked to more resources about the recommended tourist destinations.
+* "I want my users to be easily linked to more resources about the recommended tourist destinations".
 * "I want my users to learn of different tourist destinations in the recommended locations".
 
 ### User Stories
-* "I want to see idea's of where I should visit China". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory1.png)
-* "I want to see some recommended locations in China". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory2.png)
-* "I want to learn about tourist destinations in China if I decide to visit". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory3.png)
-* "I do all my online searches on my mobile". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory4.png)
-* "I want to see the tourist locations on a map". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory5.png)
-* "I want to know simple facts about China". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory6.png)
-* "I want to be able to get in touch, using a contact form if I have more questions". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshotOfUserStory7.png)
+* "I want to see idea's of where I should visit China". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story1.png)
+* "I want to see some recommended locations in China". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story2.png)
+* "I want to learn about tourist destinations in China if I decide to visit". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story3.png)
+* "I do all my online searches on my mobile". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story4.png)
+* "I want to see the tourist locations on a map". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story5.png)
+* "I want to know simple facts about China". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story6.png)
+* "I want to be able to get in touch, using a contact form if I have more questions". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story7.png)
 
 ### Surface
 
@@ -91,10 +91,10 @@ My wireframe includes a desktop, tablet and mobile version.
 ### HTML Testing
 Ran all HTML through [W3 Validator](https://validator.w3.org)
 - **One Error:** "The element button must not appear as a descendant of the a element." **Fix** Removed anchor tags and changed the button elements to anchor tags. 
-[HTML Validator No Errors](assets/images/htmlValidator.png)
+[HTML Validator](assets/images/html-validator.png) No other errors.
 ### CSS Testing 
 Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
-[CSS Validators No Errors](assets/images/cssValidator.png)
+[CSS Validator](assets/images/css-validator.png) no errors.
 ### Javascript Testing
 - Navigation & Intro
     - Clicked on all navbar links to check smooth scrolling is working. **Worked** 
@@ -108,8 +108,8 @@ Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
     - Clicked each marker to test it opened the correct info window. **Worked**
 - Contact Form (email.js)
     - Filled in the contact form and clicked submit.
-    - Checked my gmail to check I recieved the email. [Test Screenshot](assets/images/contactFormWorked.png) **Worked**
-    - Changed ID in sendemail.js to check my error alert showed when I filled the form and clicked submit. [Test Screenshot](assets/images/contactFormError.png) **Worked** 
+    - Checked my gmail to check I recieved the email. [Test Screenshot](assets/images/contact-form-worked.png) **Worked**
+    - Changed ID in sendemail.js to check my error alert showed when I filled the form and clicked submit. [Test Screenshot](assets/images/contact-form-error.png) **Worked** 
 - To top button
     - Clicked the to top button to check it scrolled to the top of the website. **Worked**
 #### script.js
@@ -130,8 +130,9 @@ Ran all Javascript through [JSHint](https://jshint.com) Passed with no major err
 - After checking the website on each device on chrome developer tools, I found bootstrap medium classes only applied to normal sized tablets, larger tablets like the Ipad Pro caused the site responsiveness to break. To fix this I added in a media query to hide the images that broke the responsiveness. 
 - A bug was found with the slideshow/ hero images that caused them to be reloaded everytime they finished going through the slideshow, this caused the loading time to go up. To fix this issue I removed the custom script and opted for bootstrap carousul which fixed the bug.
 - I found a bug where the to top button would go behind the map, to fix this I added **z-index: 1;** to the map.
-- Lazy Loading is currently supported by (Chrome, Edge, Opera and Firefox). It is currently under development for Safari [Link About lazy loading support](https://web.dev/browser-level-image-lazy-loading/).
 - Found an issue where on smaller screen sizes, when the tourist destination buttons were clicked it would not show the changes below. To fix this I changed the buttons to links and made it so when clicked it would go to the info window, so the user knows the buttons do something.
+#### Known Issues
+- Lazy Loading is currently supported by (Chrome, Edge, Opera and Firefox). It is currently not supported by Safari and is under development [Link About lazy loading support](https://web.dev/browser-level-image-lazy-loading/).
 
 ## Deployment
 This site was deployed on GitHub Pages, the steps I took to do this was:

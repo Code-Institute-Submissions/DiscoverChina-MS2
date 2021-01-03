@@ -45,25 +45,25 @@ let locations = [
 ];
 // Icons
 var cityIcon = L.icon({
-    iconUrl: 'assets/images/cityIcon.png',
+    iconUrl: 'assets/images/city-icon.png',
     iconSize: [30,30],
     iconAnchor: [0,0],
     popupAnchor: [14,0]
 });
 var attractionsIcon = L.icon({
-    iconUrl: 'assets/images/attractionsIcon.png',
+    iconUrl: 'assets/images/attractions-icon.png',
     iconSize: [30,30],
     iconAnchor: [0,0],
     popupAnchor: [14,0]
 });
 var restaurantsIcon = L.icon({
-    iconUrl: 'assets/images/restaurantsIcon.png',
+    iconUrl: 'assets/images/restaurants-icon.png',
     iconSize: [30,30],
     iconAnchor: [0,0],
     popupAnchor: [14,0]
 });
 var parksIcon = L.icon({
-    iconUrl: 'assets/images/parksIcon.png',
+    iconUrl: 'assets/images/parks-icon.png',
     iconSize: [30,30],
     iconAnchor: [0,0],
     popupAnchor: [14,0]
