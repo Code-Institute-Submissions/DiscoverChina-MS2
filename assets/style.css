@@ -101,26 +101,11 @@ outline: none;
   padding-top: 10px;
 }
 
-/* To Top Button */
-#scrollToTopBtn {
-  background-color: black;
-  border: none;
-  border-radius: 50%;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 48px;
-  width: 48px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  outline: none;
-}
-
-#scrollToTopBtn:hover {
-  background-color: #a61f0b; 
-}
-
 /* Recommended Location */
+.rec-below-header {
+  background-color: #542527;
+}
+
 .container-btns {
   background: #f25b43;
   width: 100%;
@@ -466,6 +451,26 @@ text-decoration: none;
   color: white;
   font-weight: 600;
 }
+
+/* To Top Button */
+#scrollToTopBtn {
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 48px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #a61f0b; 
+}
+
 
 /* Footer */
 .footer-container {
