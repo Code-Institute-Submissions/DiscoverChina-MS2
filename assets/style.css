@@ -486,3 +486,49 @@ text-decoration: none;
 .social-icon:hover {
   color: #a61f0b;
 }
+
+/* 404 Error  Page */
+#notFoundPageBody {
+  background-image: url(images/beijing-slide-img.jpg);
+}
+
+#notFoundPage {
+  text-align: center;
+}
+
+#notFoundPageH1 {
+  color: black;
+  font-size: 64px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+}
+
+#notFoundPageH2 {
+  color: black;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+}
+
+#notFoundPageP {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+}
+
+#notFoundPageA {
+  border-radius: 8%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+}
+
+#notFoundPageA:hover {
+  background-color: #542527;
+  color: white;
+  padding: 15px;
+}
