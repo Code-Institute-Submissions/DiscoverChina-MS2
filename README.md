@@ -30,6 +30,7 @@ This project is targeted at a wide range of users, from distinguished travellers
 * "I want to see the tourist locations on a map". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story5.png)
 * "I want to know simple facts about China". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story6.png)
 * "I want to be able to get in touch, using a contact form if I have more questions". **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story7.png)
+* "If I get a 404 error I want to be able to get back to the homepage without using the browser back buttons" **Screenshot of finished project that aligns with user story** [Screenshot](assets/images/screenshot-of-user-story8.png)
 
 ### Surface
 
@@ -89,9 +90,11 @@ My wireframe includes a desktop, tablet and mobile version.
 
  ## Testing
 ### HTML Testing
-Ran all HTML through [W3 Validator](https://validator.w3.org)
-- **One Error:** "The element button must not appear as a descendant of the a element." **Fix** Removed anchor tags and changed the button elements to anchor tags. 
+Ran all HTML (index.html and 404.html) through [W3 Validator](https://validator.w3.org)
+- **One Error (index.html):** "The element button must not appear as a descendant of the a element." **Fix** Removed anchor tags and changed the button elements to anchor tags. 
 [HTML Validator](assets/images/html-validator.png) No other errors.
+### Manual Testing 404.html
+To manually test the 404 error page, I typed my github index page link incorrectly (https://jacktubby.github.io/DiscoverChina-MS2/index.html) which then showed my 404 error page. 
 ### CSS Testing 
 Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 [CSS Validator](assets/images/css-validator.png) no errors.
