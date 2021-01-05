@@ -136,7 +136,8 @@ Ran all Javascript through [JSHint](https://jshint.com) Passed with no major err
 - I found a bug where the to top button would go behind the map, to fix this I added **z-index: 1;** to the map.
 - Found an issue where on smaller screen sizes, when the tourist destination buttons were clicked it would not show the changes below. To fix this I changed the buttons to links and made it so when clicked it would go to the info window, so the user knows the buttons do something.
 #### Known Issues
-- Lazy Loading atrribute is currently supported by (Chrome, Edge, Opera and Firefox). It is currently not supported by Safari and is under development [Link About lazy loading support](https://web.dev/browser-level-image-lazy-loading/).
+- Lazy Loading attribute is currently supported by (Chrome, Edge, Opera and Firefox). It is currently not supported by Safari and is under development [Link About lazy loading support](https://web.dev/browser-level-image-lazy-loading/).
+- Due to the high amount of images some of the images can load slowly especially on the info sections, I have added the lazy loading attributes and reduced the file sizes.  
 
 ## Deployment
 This site was deployed on GitHub Pages, the steps I took to do this was:
