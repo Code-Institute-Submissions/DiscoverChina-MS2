@@ -105,8 +105,8 @@ Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 - About Section 
     - Clicked on 'Facts About China' button to check it opens the correct content. **Worked**
 - Recommended Location Section
-    - Checked the three cities buttons to ensure they show the correct 'attractions, restaurants, parks' buttons. **Worked**
-    - Clicked the 'attractions, restaurants, parks' buttons to check the open the correct tourist destinations. **Worked** 
+    - Clicked the three cities buttons to ensure they show the correct 'attractions, restaurants, parks'. **Worked**
+    - Clicked the 'attractions, restaurants, parks' buttons to check they open the correct tourist destinations. **Worked** 
     - Clicked each tourist destination to ensure it opens the correct option content and zooms to location on map. **Worked**
 - Map
     - Clicked each marker to test it opened the correct info window. **Worked**
@@ -136,7 +136,7 @@ Ran all Javascript through [JSHint](https://jshint.com) Passed with no major err
 - I found a bug where the to top button would go behind the map, to fix this I added **z-index: 1;** to the map.
 - Found an issue where on smaller screen sizes, when the tourist destination buttons were clicked it would not show the changes below. To fix this I changed the buttons to links and made it so when clicked it would go to the info window, so the user knows the buttons do something.
 #### Known Issues
-- Lazy Loading is currently supported by (Chrome, Edge, Opera and Firefox). It is currently not supported by Safari and is under development [Link About lazy loading support](https://web.dev/browser-level-image-lazy-loading/).
+- Lazy Loading atrribute is currently supported by (Chrome, Edge, Opera and Firefox). It is currently not supported by Safari and is under development [Link About lazy loading support](https://web.dev/browser-level-image-lazy-loading/).
 
 ## Deployment
 This site was deployed on GitHub Pages, the steps I took to do this was:
