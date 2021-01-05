@@ -155,6 +155,7 @@ This site was deployed on GitHub Pages, the steps I took to do this was:
  * Trip Advisor and Wikipedia was utilized for information on the info options, and to provide a link to the corresponding option.
 
  ### Acknowledgements
+ - Simon Vardy for his assistance with my 404 error page.
  - Tim Nelson for his assistance with LeafletJS.
  - Slack Community and CI staff that helped with questions and assistance throughout development.
  - Mentor - My mentor helped me decide where to focus my time and make improvements, which was very beneficial for my site development.
