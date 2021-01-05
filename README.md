@@ -51,7 +51,8 @@ Imagery was carefully chosen to best show each tourist location.
 An interactive map with markers and info windows, with a zoom to location when the location button is clicked.
 ### Wireframes
 My wireframe includes a desktop, tablet and mobile version.
-[WireFrame](assets/docs/DiscoverChinaWireframe.pdf)
+[Wireframe Discover China](assets/docs/DiscoverChinaWireframe.pdf)
+[Wireframe 404 error page](assets/docs/404-error-page-wireframe.pdf)
 
 ## Features 
 ### Existing Features
