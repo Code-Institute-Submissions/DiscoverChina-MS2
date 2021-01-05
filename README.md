@@ -95,7 +95,7 @@ Ran all HTML (index.html and 404.html) through [W3 Validator](https://validator.
 - **One Error (index.html):** "The element button must not appear as a descendant of the a element." **Fix** Removed anchor tags and changed the button elements to anchor tags. 
 [HTML Validator](assets/images/html-validator.png) No other errors.
 ### Manual Testing 404.html
-To manually test the 404 error page, I typed my github index page link incorrectly (https://jacktubby.github.io/DiscoverChina-MS2/index.html) which then showed my 404 error page. 
+To manually test the 404 error page, I typed my github index page link incorrectly (https://jacktubby.github.io/DiscoverChina-MS2/indexx.html) which then showed my 404 error page. 
 ### CSS Testing 
 Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 [CSS Validator](assets/images/css-validator.png) no errors.
