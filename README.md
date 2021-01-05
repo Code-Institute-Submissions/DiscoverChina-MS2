@@ -140,13 +140,47 @@ Ran all Javascript through [JSHint](https://jshint.com) Passed with no major err
 - Due to the high amount of images some of the images can load slowly especially on the info sections, I have added the lazy loading attributes and reduced the file sizes.  
 
 ## Deployment
-This site was deployed on GitHub Pages, the steps I took to do this was:
-- The code was written in VS Code.
-- I pushed the code to my GitHub repository.
-- In the repository settings, I scrolled down to the GitHub Pages.
-- Under 'source', I selected the 'master branch'. 
-- I published the project to GitHub pages, which provided me with a url.
-- The deployed website and development site are the same.
+### GitHub Pages
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/JackTubby/DiscoverChina-MS2/)
+2. At the top of the Repository, locate the menu and click "Settings".
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will refresh automatically.
+6. Scroll back down through the page to locate the now published site [link](https://jacktubby.github.io/DiscoverChina-MS2/) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/JackTubby/DiscoverChina-MS2/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/JackTubby/DiscoverChina-MS2/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
  ## Credits
  ### Code
