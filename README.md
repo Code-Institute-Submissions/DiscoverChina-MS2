@@ -184,7 +184,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
  ## Credits
  ### Code
- - [Font Awesome](https://fontawesome.com)Font Awesome was used to provide social icons in the website.
+ - [Font Awesome](https://fontawesome.com): Font Awesome was used to provide social icons in the website.
  - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap was used to add responsiveness to the website.
  ### Media
  * Information and some imagery was optained from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
