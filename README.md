@@ -67,7 +67,7 @@ I have two wireframes one for the main website (Discover China) and another for 
 - Links in each tourist location that opens a relevant website or reviews.
 - Each tourist location has a showcase of images that are clickable and open in a new tab. 
 
-## Features Left to Implement
+### Features Left to Implement
 - A section showing the current weather in China throughout the year.
 - Incorporate hotel deals from an api into the website. 
 
@@ -89,7 +89,7 @@ I have two wireframes one for the main website (Discover China) and another for 
 - [Tinyjpg.com](https://tinyjpg.com)
   - Tingjpg.com was used to reduce image file sizes, to improve loading times.
 
- ## Testing
+## Testing
 ### HTML Testing
 Ran all HTML (index.html and 404.html) through [W3 Validator](https://validator.w3.org)
 - **One Error (index.html):** "The element button must not appear as a descendant of the a element." **Fix** Removed anchor tags and changed the button elements to anchor tags. 
