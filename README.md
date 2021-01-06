@@ -51,7 +51,7 @@ Imagery was carefully chosen to best show each tourist location.
 An interactive map with markers and info windows, with a zoom to location when the location button is clicked.
 ### Wireframes
 I have two wireframes one for the main website (Discover China) and another for my 404 error page. The Discover China wireframe shows a desktop, tablet and mobile version, the 404 error page is the same for all devices.
-- [Wireframe Discover China](assets/docs/DiscoverChinaWireframe.pdf)
+- [Wireframe Discover China](assets/docs/discover-china-wireframe.pdf)
 - [Wireframe 404 error page](assets/docs/404-error-page-wireframe.pdf)
 
 ## Features 
