@@ -93,12 +93,12 @@ I have two wireframes one for the main website (Discover China) and another for 
 ### HTML Testing
 Ran all HTML (index.html and 404.html) through [W3 Validator](https://validator.w3.org)
 - **One Error (index.html):** "The element button must not appear as a descendant of the a element." **Fix** Removed anchor tags and changed the button elements to anchor tags. 
-[HTML Validator](assets/images/html-validator.png) No other errors.
+- [HTML Validator Screenshot](assets/images/html-validator.png) No other errors.
 ### Manual Testing 404.html
 To manually test the 404 error page, I typed my github index page link incorrectly (https://jacktubby.github.io/DiscoverChina-MS2/indexx.html) which then showed my 404 error page. 
 ### CSS Testing 
-Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
-[CSS Validator](assets/images/css-validator.png) no errors.
+- Ran all CSS through [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
+- [CSS Validator Screenshot](assets/images/css-validator.png) no errors.
 ### Javascript Testing
 - Navigation & Intro
     - Clicked on all navbar links to check smooth scrolling is working. **Worked** 
